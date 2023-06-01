@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "2xBlhEmVHC4fAWYRvwMBy4",
+    "name" : "Stage_to_Sync",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "All transformation logic and Intermediate table creation mappings",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "5a4MqYyp6OHiJnu8mVZpUr",
+    "name" : "Sh_CS_Migration",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Loading of Cloud Sense entities",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "b2IAdWHpce9iO0QAKYiyo3",
+    "name" : "Reverse_pull_objects",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replication objects",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}
