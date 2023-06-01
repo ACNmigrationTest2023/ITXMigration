@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "1bX61PFSqiedWKJOx6E9Cu",
+    "name" : "Sh_Migration_QA",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Data migration from Legacy source systems to salesforce application",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}
