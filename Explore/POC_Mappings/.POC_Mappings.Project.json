@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "3EO6nAnGti8hAM7nSeGd0i",
+    "name" : "POC_Mappings",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "All POC mappings will be developed in this folder",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}
