@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "2DFvaZP6qg7b8tCd7c2qCC",
+    "name" : "Source_to_Stage",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Load EBS .csv file to Postgres tables",
+        "contentType" : null,
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}
