@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "9hJneueNEiogd1Yd0XRZM1",
-    "name" : "mt_test_schema_change_01",
+    "name" : "mt_test_schema_change",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -16,7 +16,7 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "SAMPLE",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
