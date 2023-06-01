@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "fm6CHN2veqpkImsApEMVa7",
+    "name" : "Sh_Taskflow",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Entity sequence objects can be added here",
+        "contentType" : null,
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "ad6CUUiPuAijiVCpg9pJcn",
+    "name" : "Sh_Migration_P1",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Migrating data from EBS & SAP systems to salesforce application",
+        "contentType" : null,
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}
