@@ -16,7 +16,7 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "TEST",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
@@ -75,10 +75,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ170000000000AF"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
