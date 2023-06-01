@@ -1,0 +1,2506 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>HCwkNmumf6S3wOL-gt-884793-2022-12-07T12:35:48.53Z::tf.xml</types1:EntryId>
+      <types1:Name>taskflow_sf_ebs_sap_file_stg</types1:Name>
+      <types1:MimeType>application/xml+taskflow</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>sowjanya.kannuri@accenture.com</types1:CreatedBy>
+      <types1:CreationDate>2022-12-07T12:35:49Z</types1:CreationDate>
+      <types1:ModifiedBy>sowjanya.kannuri@accenture.com</types1:ModifiedBy>
+      <types1:ModificationDate>2023-02-07T12:28:31Z</types1:ModificationDate>
+      <types1:PublicationStatus>out-of-date</types1:PublicationStatus>
+      <types1:PublishedBy>siva.krishna.addanki@accenture.com</types1:PublishedBy>
+      <types1:PublicationDate>2023-02-07T08:45:31Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/tf.taskflow_sf_ebs_sap_file_stg/taskflow_sf_ebs_sap_file_stg.tf.xml</types1:PublishedContributionId>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <taskflow xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                   xmlns:tfm="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"
+                   xmlns:list="urn:activevos:spi:list:functions"
+                   displayName="taskflow_sf_ebs_sap_file_stg"
+                   name="taskflow_sf_ebs_sap_file_stg"
+                   overrideAPIName="false">
+            <parameterSet xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"/>
+            <appliesTo/>
+            <description/>
+            <tags/>
+            <generator>Informatica Process Designer 11</generator>
+            <tempFields>
+               <field description="" name="dt_file_stg_contact" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-ebs-contact</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_stg_address" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-ebs-address</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_stg_customer_access" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-ebs-customer-access</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_stg_cust_attr" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-ebs-cust-attr-value</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_stg_acct_attr" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-ebs-acct-attr-value</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_stg_cust_acct" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:mt-file-stg-ebs-cust</option>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_stg_acct" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:mt-file-stg-ebs-acct</option>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_stg_sap_cust" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:mt-file-stg-sap-cust</option>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_stg_attr" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:mt-file-stg-ebs-attr</option>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_stg_attr_value" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:mt-file-stg-ebs-attr-value</option>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                  </options>
+               </field>
+               <field description=""
+                      name="dt_file_stg_ebs_report_access"
+                      type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-ebs-report-access</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_stg_validation_rule" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-validation-rule</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_Stg_lov" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-lov</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_stg_ebs_sr" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-ebs-sr</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_stg_sap_acct" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-sap-acct</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_stg_ebs_sr_billl" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-ebs-sr-bill</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_stg_ebs_sr_ntt" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-ebs-sr-ntt</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_stg_ebs_maintainance" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-ebs-maintainance</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_stg_ebs_sr_type" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-ebs-sr-type</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_stg_ebs_sr_status" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-ebs-sr-status</option>
+                  </options>
+               </field>
+               <field description=""
+                      name="dt_file_stg_ebs_sr_core_reason"
+                      type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-ebs-sr-core-reason</option>
+                  </options>
+               </field>
+               <field description=""
+                      name="dt_file_stg_ebs_sr_resolution_code"
+                      type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-ebs-sr-resolution-code</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_stg_ebs_sr_tt_notes" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-ebs-sr-tt-notes</option>
+                  </options>
+               </field>
+               <field description=""
+                      name="dt_file_stg_ebs_sr_attachment"
+                      type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-ebs-case-attachment</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_stg_ebs_contact_man" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-ebs-contact-man</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_stg_sap_address" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-sap-address</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_stg_sap_contact" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-file-stg-sap-contact</option>
+                  </options>
+               </field>
+               <field description="" name="dt_file_sh_reconcilation" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">false</option>
+                     <option name="referenceTo">$po:mt-file-sh-reconciliation</option>
+                  </options>
+               </field>
+            </tempFields>
+            <notes/>
+            <deployment skipIfRunning="false" suspendOnFault="false" tracingLevel="verbose">
+               <rest/>
+            </deployment>
+            <flow id="a">
+               <start id="b">
+                  <link id="lbdzxstl" targetId="lbdzxsng"/>
+               </start>
+               <container id="lbdzxsng" type="parallel">
+                  <title>Parallel Paths 1</title>
+                  <flow id="lbgdxh9j">
+                     <eventContainer id="lbgdxhdh">
+                        <service id="lbgdxhd2">
+                           <title>dt_file_stg_validation_rule</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_validation_rule</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">9Og6lXfj9QZetJ4sWA704B</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-validation-rule">temp.dt_file_stg_validation_rule</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_stg_validation_rule/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_validation_rule/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_validation_rule/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_validation_rule/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_validation_rule/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_validation_rule/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_validation_rule/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_validation_rule/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_validation_rule/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_validation_rule/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_validation_rule/output/End_Time">End Time</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_validation_rule/output/Error_Message">Error Message</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_validation_rule/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_validation_rule/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_validation_rule/fault"
+                                  id="lbgdxhdf"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_validation_rule/fault"
+                                  id="lbgdxhdg"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <link id="lbgdxh9k" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <flow id="lbdzxtue">
+                     <eventContainer id="lbdzxtwy">
+                        <service id="lbdzxtw8">
+                           <title>dt_file_stg_attr</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_ebs_attr</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">fiFDISbmq2YciC0RndcduG</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-ebs-attr">temp.dt_file_stg_attr</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_stg_attr/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr/output/Task_Status">Task Status</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr/output/Error_Message">Error Message</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <link id="lbdzxtx9" targetId="lbdzxtxz"/>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_attr/fault"
+                                  id="lbdzxt88"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_attr/fault"
+                                  id="lbdzxt89"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <eventContainer id="lbdzxtxz">
+                        <service id="lbdzxtx8">
+                           <title>dt_file_stg_attr_value</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_ebs_attr_value</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">aFsdVwypJTEhntlZKs3SEb</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-ebs-attr-value">temp.dt_file_stg_attr_value</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_stg_attr_value/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr_value/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr_value/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr_value/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr_value/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_attr_value/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_attr_value/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_attr_value/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_attr_value/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr_value/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr_value/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr_value/output/Error_Message">Error Message</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr_value/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field" to="temp.dt_file_stg_attr_value/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_attr_value/fault"
+                                  id="lbdzxt8q"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_attr_value/fault"
+                                  id="lbdzxt8r"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <link id="lbdzxtuf" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <flow id="lbdzxsnk">
+                     <eventContainer id="lbdzxt65">
+                        <service id="lbdzxt5h">
+                           <title>dt_file_stg_cust_acct</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_ebs_cust</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">hqzC1HoeNs1hXxjYZZZRen</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-ebs-cust">temp.dt_file_stg_cust_acct</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_stg_cust_acct/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_cust_acct/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_cust_acct/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_cust_acct/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_cust_acct/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_cust_acct/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_cust_acct/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_cust_acct/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_cust_acct/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_cust_acct/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_cust_acct/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_cust_acct/output/Error_Message">Error Message</operation>
+                              <operation source="field" to="temp.dt_file_stg_cust_acct/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field" to="temp.dt_file_stg_cust_acct/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <link id="lbdzxt5i" targetId="lbdzxt7a"/>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_cust_acct/fault"
+                                  id="lbdmgkq7"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_cust_acct/fault"
+                                  id="lbdmgkq8"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <eventContainer id="lbdzxt7a">
+                        <service id="lbdzxt4y">
+                           <title>dt_file_stg_cust_attr</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_ebs_cust_attr_value</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">63GSeC3Kg66e0XE94RUb2y</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-ebs-cust-attr-value">temp.dt_file_stg_cust_attr</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_stg_cust_attr/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_cust_attr/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_cust_attr/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_cust_attr/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_cust_attr/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_cust_attr/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_cust_attr/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_cust_attr/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_cust_attr/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_cust_attr/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_cust_attr/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_cust_attr/output/Error_Message">Error Message</operation>
+                              <operation source="field" to="temp.dt_file_stg_cust_attr/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field" to="temp.dt_file_stg_cust_attr/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_cust_attr/fault"
+                                  id="lbdzxt78"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_cust_attr/fault"
+                                  id="lbdzxt79"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <link id="lbdzxsnl" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <flow id="lbdzxtog">
+                     <eventContainer id="lbdzxtqp">
+                        <service id="lbdzxtq1">
+                           <title>dt_file_stg_sap_cust</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_sap_cust</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">dBFqHzFP6iHh8ha2e3TtuZ</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-sap-cust">temp.dt_file_stg_sap_cust</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_stg_sap_cust/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_cust/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_cust/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_cust/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_cust/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_sap_cust/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_cust/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_sap_cust/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_cust/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_cust/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_cust/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_cust/output/Error_Message">Error Message</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_cust/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_cust/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_sap_cust/fault"
+                                  id="lbdzxtn4"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_sap_cust/fault"
+                                  id="lbdzxtn5"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <link id="lbdzxtoh" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <flow id="lbdzxsnn">
+                     <eventContainer id="lbdzxt71">
+                        <service id="lbdzxt6d">
+                           <title>dt_file_stg_acct</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_ebs_acct</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">9aCqKdTwZW3lRkkyD34jem</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-ebs-acct">temp.dt_file_stg_acct</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_stg_acct/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct/output/Task_Status">Task Status</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct/output/Error_Message">Error Message</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <link id="lbdzxt6e" targetId="lbdzxt7s"/>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_acct/fault"
+                                  id="lbdmgktg"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_acct/fault"
+                                  id="lbdmgkth"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <eventContainer id="lbdzxt7s">
+                        <service id="lbdzxt58">
+                           <title>dt_file_stg_acct_attr</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_ebs_acct_attr_value</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">7zPP64rfvRoboZaMIGEo0b</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-ebs-acct-attr-value">temp.dt_file_stg_acct_attr</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_stg_acct_attr/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct_attr/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct_attr/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct_attr/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct_attr/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_acct_attr/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_acct_attr/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_acct_attr/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_acct_attr/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct_attr/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct_attr/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct_attr/output/Error_Message">Error Message</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct_attr/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field" to="temp.dt_file_stg_acct_attr/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_acct_attr/fault"
+                                  id="lbdzxt7q"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_acct_attr/fault"
+                                  id="lbdzxt7r"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <link id="lbdzxsno" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <flow id="lbdzxsrl">
+                     <eventContainer id="lbdzxt09">
+                        <service id="lbdzxszk">
+                           <title>dt_file_stg_contact</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_ebs_contact</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">4ctiTeI1luNeC9HQS9tiso</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-ebs-contact">temp.dt_file_stg_contact</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_stg_contact/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_contact/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_contact/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_contact/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_contact/output/Task_Status">Task Status</operation>
+                              <operation source="field" to="temp.dt_file_stg_contact/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_contact/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_contact/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_contact/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_contact/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_contact/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_contact/output/Error_Message">Error Message</operation>
+                              <operation source="field" to="temp.dt_file_stg_contact/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field" to="temp.dt_file_stg_contact/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <link id="ldissije" targetId="ldissil1"/>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_contact/fault"
+                                  id="lbdzxt07"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_contact/fault"
+                                  id="lbdzxt08"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <eventContainer id="ldissil1">
+                        <service id="ldissijd">
+                           <title>dt_file_stg_ebs_contact_man</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_ebs_contact_man</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">jIrJoPlo2ktjdne9bfFuSu</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-ebs-contact-man">temp.dt_file_stg_ebs_contact_man</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_stg_ebs_contact_man/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_contact_man/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_contact_man/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_contact_man/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_contact_man/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_contact_man/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_contact_man/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_contact_man/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_contact_man/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_contact_man/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_contact_man/output/End_Time">End Time</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_contact_man/output/Error_Message">Error Message</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_contact_man/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_contact_man/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_ebs_contact_man/fault"
+                                  id="ldissikz"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_ebs_contact_man/fault"
+                                  id="ldissil0"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <link id="lbdzxsrm" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <flow id="lbdzxsrt">
+                     <eventContainer id="lbdzxt1k">
+                        <service id="lbdzxt0v">
+                           <title>dt_file_stg_address</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_ebs_address</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">3BmxFDXKZY0lD4N0OzFAAG</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-ebs-address">temp.dt_file_stg_address</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_stg_address/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_address/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_address/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_address/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_address/output/Task_Status">Task Status</operation>
+                              <operation source="field" to="temp.dt_file_stg_address/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_address/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_address/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_address/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_address/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_address/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_address/output/Error_Message">Error Message</operation>
+                              <operation source="field" to="temp.dt_file_stg_address/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field" to="temp.dt_file_stg_address/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <link id="ldissinu" targetId="ldissip0"/>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_address/fault"
+                                  id="lbdzxt1i"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_address/fault"
+                                  id="lbdzxt1j"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <eventContainer id="ldissip0">
+                        <service id="ldissint">
+                           <title>dt_file_stg_sap_address</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_sap_address</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">6L737GymqjYhS9YFxkecUb</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-sap-address">temp.dt_file_stg_sap_address</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_stg_sap_address/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_address/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_address/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_address/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_address/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_sap_address/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_sap_address/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_sap_address/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_sap_address/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_address/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_address/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_address/output/Error_Message">Error Message</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_sap_address/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_address/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_sap_address/fault"
+                                  id="ldissioy"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_sap_address/fault"
+                                  id="ldissioz"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <link id="lbdzxsru" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <flow id="lbdzxss2">
+                     <eventContainer id="lbdzxt2v">
+                        <service id="lbdzxt26">
+                           <title>dt_file_stg_customer_access</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_ebs_customer_access</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">1r8pAhf0ng1fUug1XIoNQF</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-ebs-customer-access">temp.dt_file_stg_customer_access</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_stg_customer_access/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_customer_access/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_customer_access/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_customer_access/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_customer_access/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_customer_access/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_customer_access/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_customer_access/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_customer_access/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_customer_access/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_customer_access/output/End_Time">End Time</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_customer_access/output/Error_Message">Error Message</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_customer_access/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_customer_access/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_customer_access/fault"
+                                  id="lbdzxt2t"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_customer_access/fault"
+                                  id="lbdzxt2u"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <link id="lbdzxss3" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <flow id="lbdzxtzw">
+                     <eventContainer id="lbdzxu13">
+                        <service id="lbdzxu09">
+                           <title>dt_file_stg_ebs_report_access</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_ebs_report_access</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">1OgMdKBH8EplwsbIuvpYyi</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-ebs-report-access">temp.dt_file_stg_ebs_report_access</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_report_access/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_report_access/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_report_access/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_report_access/output/Task_Id">Task Id</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_report_access/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_report_access/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_report_access/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_report_access/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_report_access/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_report_access/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_report_access/output/End_Time">End Time</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_report_access/output/Error_Message">Error Message</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_report_access/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_report_access/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_ebs_report_access/fault"
+                                  id="lbdzxu11"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_ebs_report_access/fault"
+                                  id="lbdzxu12"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <link id="lbdzxtzx" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <flow id="lbgdxh9w">
+                     <eventContainer id="lbgdxhg0">
+                        <service id="lbgdxhf4">
+                           <title>dt_file_Stg_lov</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_lov</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">10ISync5UxQggbetgQygyx</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-lov">temp.dt_file_Stg_lov</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_Stg_lov/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_Stg_lov/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_Stg_lov/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_Stg_lov/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_Stg_lov/output/Task_Status">Task Status</operation>
+                              <operation source="field" to="temp.dt_file_Stg_lov/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field" to="temp.dt_file_Stg_lov/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field" to="temp.dt_file_Stg_lov/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_Stg_lov/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_Stg_lov/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_Stg_lov/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.dt_file_Stg_lov/output/Error_Message">Error Message</operation>
+                              <operation source="field" to="temp.dt_file_Stg_lov/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field" to="temp.dt_file_Stg_lov/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_Stg_lov/fault"
+                                  id="lbgdxhfy"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_Stg_lov/fault"
+                                  id="lbgdxhfz"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <link id="lbgdxh9x" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <flow id="lciogsvb">
+                     <eventContainer id="lciogsw7">
+                        <service id="lciogsvr">
+                           <title>dt_file_stg_sap_acct</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_sap_acct</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">4Gp4FFDXPa1k7SpR1ZdbsN</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-sap-acct">temp.dt_file_stg_sap_acct</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_stg_sap_acct/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_acct/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_acct/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_acct/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_acct/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_sap_acct/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_acct/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_sap_acct/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_acct/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_acct/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_acct/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_acct/output/Error_Message">Error Message</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_acct/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_acct/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <link id="ldissit8" targetId="ldissiue"/>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_sap_acct/fault"
+                                  id="lciogsw5"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_sap_acct/fault"
+                                  id="lciogsw6"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <eventContainer id="ldissiue">
+                        <service id="ldissit7">
+                           <title>dt_file_stg_sap_contact</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_sap_contact</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">lnyNIvucAUHliXTc1X4TSF</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-sap-contact">temp.dt_file_stg_sap_contact</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_stg_sap_contact/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_contact/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_contact/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_contact/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_contact/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_sap_contact/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_sap_contact/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_sap_contact/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_sap_contact/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_contact/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_contact/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_contact/output/Error_Message">Error Message</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_sap_contact/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field" to="temp.dt_file_stg_sap_contact/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_sap_contact/fault"
+                                  id="ldissiuc"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_sap_contact/fault"
+                                  id="ldissiud"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <link id="lciogsvc" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <flow id="lbdzxtqy">
+                     <eventContainer id="lciogs74">
+                        <service id="lciogs4o">
+                           <title>dt_file_stg_ebs_sr</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_ebs_sr</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">0RfoGE211SNgQSIHIoHRqb</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-ebs-sr">temp.dt_file_stg_ebs_sr</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr/output/Task_Status">Task Status</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr/output/Error_Message">Error Message</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_ebs_sr/fault"
+                                  id="lciogs72"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_ebs_sr/fault"
+                                  id="lciogs73"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <link id="lbdzxtqz" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <flow id="lcitme9v">
+                     <eventContainer id="lcitmee2">
+                        <service id="lcitmecz">
+                           <title>dt_file_stg_ebs_sr_billl</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_ebs_sr_bill</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">3HYWWJGrfqSfMdnj2mf2Ql</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-ebs-sr-bill">temp.dt_file_stg_ebs_sr_billl</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_billl/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_billl/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_billl/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_billl/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_billl/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_billl/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_billl/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_billl/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_billl/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_billl/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_billl/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_billl/output/Error_Message">Error Message</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_billl/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_billl/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_ebs_sr_billl/fault"
+                                  id="lcitmee0"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_ebs_sr_billl/fault"
+                                  id="lcitmee1"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <link id="lcitme9w" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <flow id="lcitmeab">
+                     <eventContainer id="lcitmelj">
+                        <service id="lcitmekg">
+                           <title>dt_file_stg_ebs_sr_ntt</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_ebs_sr_ntt</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">lIGbuMWW38pem4j8i7Rx0k</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-ebs-sr-ntt">temp.dt_file_stg_ebs_sr_ntt</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_ntt/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_ntt/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_ntt/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_ntt/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_ntt/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_ntt/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_ntt/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_ntt/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_ntt/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_ntt/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_ntt/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_ntt/output/Error_Message">Error Message</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_ntt/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_ntt/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_ebs_sr_ntt/fault"
+                                  id="lcitmelh"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_ebs_sr_ntt/fault"
+                                  id="lcitmeli"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <link id="lcitmeac" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <flow id="lcitmeas">
+                     <eventContainer id="lcitmeqm">
+                        <service id="lcitmepj">
+                           <title>dt_file_stg_ebs_maintainance</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_ebs_maintainance</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">kR4ewpolqwklGOBIeP8zK0</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-ebs-maintainance">temp.dt_file_stg_ebs_maintainance</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_maintainance/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_maintainance/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_maintainance/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_maintainance/output/Task_Id">Task Id</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_maintainance/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_maintainance/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_maintainance/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_maintainance/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_maintainance/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_maintainance/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_maintainance/output/End_Time">End Time</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_maintainance/output/Error_Message">Error Message</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_maintainance/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_maintainance/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_ebs_maintainance/fault"
+                                  id="lcitmeqk"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_ebs_maintainance/fault"
+                                  id="lcitmeql"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <link id="lcitmeat" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <flow id="lcitmeba">
+                     <eventContainer id="lcitmev6">
+                        <service id="lcitmeu3">
+                           <title>dt_file_stg_ebs_sr_type</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_ebs_sr_type</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">aRsnZjdHLsdeg1loqJA6sH</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-ebs-sr-type">temp.dt_file_stg_ebs_sr_type</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_type/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_type/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_type/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_type/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_type/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_type/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_type/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_type/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_type/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_type/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_type/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_type/output/Error_Message">Error Message</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_type/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_type/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_ebs_sr_type/fault"
+                                  id="lcitmev4"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_ebs_sr_type/fault"
+                                  id="lcitmev5"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <link id="lcitmebb" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <flow id="lcitmebt">
+                     <eventContainer id="lcitmeys">
+                        <service id="lcitmexp">
+                           <title>dt_file_stg_ebs_sr_status</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_ebs_sr_status</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">6ywbZR5yUoUkdEubDwgquJ</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-ebs-sr-status">temp.dt_file_stg_ebs_sr_status</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_status/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_status/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_status/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_status/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_status/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_status/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_status/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_status/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_status/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_status/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_status/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_status/output/Error_Message">Error Message</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_status/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_status/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_ebs_sr_status/fault"
+                                  id="lcitmeyq"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_ebs_sr_status/fault"
+                                  id="lcitmeyr"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <link id="lcitmebu" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <flow id="lcitmecd">
+                     <eventContainer id="lcitmf2e">
+                        <service id="lcitmf1b">
+                           <title>dt_file_stg_ebs_sr_core_reason</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_ebs_sr_core_reason</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">6I5xIspSQawlfFgNyFdgw5</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-ebs-sr-core-reason">temp.dt_file_stg_ebs_sr_core_reason</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_core_reason/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_core_reason/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_core_reason/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_core_reason/output/Task_Id">Task Id</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_core_reason/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_core_reason/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_core_reason/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_core_reason/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_core_reason/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_core_reason/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_core_reason/output/End_Time">End Time</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_core_reason/output/Error_Message">Error Message</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_core_reason/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_core_reason/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_ebs_sr_core_reason/fault"
+                                  id="lcitmf2c"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_ebs_sr_core_reason/fault"
+                                  id="lcitmf2d"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <link id="lcitmece" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <flow id="lcitmf5e">
+                     <eventContainer id="lcitmf7t">
+                        <service id="lcitmf6o">
+                           <title>dt_file_stg_ebs_sr_resolution_code</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_ebs_sr_resolution_code</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">dTDt0s4yWkee69POeOc4sg</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-ebs-sr-resolution-code">temp.dt_file_stg_ebs_sr_resolution_code</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_resolution_code/output/Object_Name">Object Name</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_resolution_code/output/Run_Id">Run Id</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_resolution_code/output/Log_Id">Log Id</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_resolution_code/output/Task_Id">Task Id</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_resolution_code/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_resolution_code/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_resolution_code/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_resolution_code/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_resolution_code/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_resolution_code/output/Start_Time">Start Time</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_resolution_code/output/End_Time">End Time</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_resolution_code/output/Error_Message">Error Message</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_resolution_code/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_resolution_code/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_ebs_sr_resolution_code/fault"
+                                  id="lcitmf7r"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_ebs_sr_resolution_code/fault"
+                                  id="lcitmf7s"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <link id="lcitmf5f" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <flow id="lcitmf60">
+                     <eventContainer id="lcitmfc7">
+                        <service id="lcitmfai">
+                           <title>dt_file_stg_ebs_sr_tt_notes</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_ebs_sr_tt_notes</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">7bbpHKTeUjSbClW5ejNbmQ</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-ebs-sr-tt-notes">temp.dt_file_stg_ebs_sr_tt_notes</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_tt_notes/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_tt_notes/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_tt_notes/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_tt_notes/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_tt_notes/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_tt_notes/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_tt_notes/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_tt_notes/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_tt_notes/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_tt_notes/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_tt_notes/output/End_Time">End Time</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_tt_notes/output/Error_Message">Error Message</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_tt_notes/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_tt_notes/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_ebs_sr_tt_notes/fault"
+                                  id="lcitmfc5"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_ebs_sr_tt_notes/fault"
+                                  id="lcitmfc6"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <link id="lcitmf61" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <flow id="lcosdk5q">
+                     <eventContainer id="lcosdk7l">
+                        <service id="lcosdk6f">
+                           <title>dt_file_stg_ebs_sr_attachment</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_stg_ebs_case_attachment</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">5IV1SoNXYD3jRVpLtpEBC7</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-stg-ebs-case-attachment">temp.dt_file_stg_ebs_sr_attachment</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_attachment/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_attachment/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_attachment/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_attachment/output/Task_Id">Task Id</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_attachment/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_attachment/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_attachment/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_attachment/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_attachment/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_attachment/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_stg_ebs_sr_attachment/output/End_Time">End Time</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_attachment/output/Error_Message">Error Message</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_attachment/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_stg_ebs_sr_attachment/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_stg_ebs_sr_attachment/fault"
+                                  id="lcosdk7j"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_stg_ebs_sr_attachment/fault"
+                                  id="lcosdk7k"
+                                  interrupting="true"
+                                  name="warning">
+                              <suspend/>
+                           </catch>
+                        </events>
+                     </eventContainer>
+                     <link id="lcosdk5r" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <flow id="ldu4dorl">
+                     <eventContainer id="ldu4dot1">
+                        <service id="ldu4dosb">
+                           <title>dt_file_sh_reconcilation</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mt_file_sh_reconciliation</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">8fiikAzy89Dl1Uj9G50Zm0</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mt-file-sh-reconciliation">temp.dt_file_sh_reconcilation</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.dt_file_sh_reconcilation/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.dt_file_sh_reconcilation/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.dt_file_sh_reconcilation/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.dt_file_sh_reconcilation/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.dt_file_sh_reconcilation/output/Task_Status">Task Status</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_sh_reconcilation/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_sh_reconcilation/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_sh_reconcilation/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_sh_reconcilation/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.dt_file_sh_reconcilation/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.dt_file_sh_reconcilation/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.dt_file_sh_reconcilation/output/Error_Message">Error Message</operation>
+                              <operation source="field"
+                                         to="temp.dt_file_sh_reconcilation/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field" to="temp.dt_file_sh_reconcilation/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.dt_file_sh_reconcilation/fault"
+                                  id="ldu4dosz"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.dt_file_sh_reconcilation/fault"
+                                  id="ldu4dot0"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="ldu4dorm" targetId="lbdzxsng" type="containerLink"/>
+                  </flow>
+                  <link id="lbgdxh9i" targetId="lbgdxh9j" type="containerLink"/>
+                  <link id="lbdzxtud" targetId="lbdzxtue" type="containerLink"/>
+                  <link id="lbdzxsnj" targetId="lbdzxsnk" type="containerLink"/>
+                  <link id="lbdzxtof" targetId="lbdzxtog" type="containerLink"/>
+                  <link id="lbdzxsnm" targetId="lbdzxsnn" type="containerLink"/>
+                  <link id="lbdzxsrk" targetId="lbdzxsrl" type="containerLink"/>
+                  <link id="lbdzxsrs" targetId="lbdzxsrt" type="containerLink"/>
+                  <link id="lbdzxss1" targetId="lbdzxss2" type="containerLink"/>
+                  <link id="lbdzxtzv" targetId="lbdzxtzw" type="containerLink"/>
+                  <link id="lbgdxh9v" targetId="lbgdxh9w" type="containerLink"/>
+                  <link id="lciogsva" targetId="lciogsvb" type="containerLink"/>
+                  <link id="lbdzxtqx" targetId="lbdzxtqy" type="containerLink"/>
+                  <link id="lcitme9u" targetId="lcitme9v" type="containerLink"/>
+                  <link id="lcitmeaa" targetId="lcitmeab" type="containerLink"/>
+                  <link id="lcitmear" targetId="lcitmeas" type="containerLink"/>
+                  <link id="lcitmeb9" targetId="lcitmeba" type="containerLink"/>
+                  <link id="lcitmebs" targetId="lcitmebt" type="containerLink"/>
+                  <link id="lcitmecc" targetId="lcitmecd" type="containerLink"/>
+                  <link id="lcitmf5d" targetId="lcitmf5e" type="containerLink"/>
+                  <link id="lcitmf5z" targetId="lcitmf60" type="containerLink"/>
+                  <link id="lcosdk5p" targetId="lcosdk5q" type="containerLink"/>
+                  <link id="ldu4dork" targetId="ldu4dorl" type="containerLink"/>
+                  <link id="lbdzxsw6" targetId="c"/>
+               </container>
+               <end id="c"/>
+            </flow>
+            <dependencies>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-ebs-contact"
+                              isByCopy="true"
+                              name="mt-file-stg-ebs-contact">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-ebs-address"
+                              isByCopy="true"
+                              name="mt-file-stg-ebs-address">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-ebs-customer-access"
+                              isByCopy="true"
+                              name="mt-file-stg-ebs-customer-access">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-ebs-cust-attr-value"
+                              isByCopy="true"
+                              name="mt-file-stg-ebs-cust-attr-value">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-ebs-acct-attr-value"
+                              isByCopy="true"
+                              name="mt-file-stg-ebs-acct-attr-value">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-ebs-cust"
+                              isByCopy="true"
+                              name="mt-file-stg-ebs-cust">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-ebs-acct"
+                              isByCopy="true"
+                              name="mt-file-stg-ebs-acct">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-sap-cust"
+                              isByCopy="true"
+                              name="mt-file-stg-sap-cust">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-ebs-attr"
+                              isByCopy="true"
+                              name="mt-file-stg-ebs-attr">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-ebs-attr-value"
+                              isByCopy="true"
+                              name="mt-file-stg-ebs-attr-value">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-ebs-report-access"
+                              isByCopy="true"
+                              name="mt-file-stg-ebs-report-access">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-validation-rule"
+                              isByCopy="true"
+                              name="mt-file-stg-validation-rule">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-lov"
+                              isByCopy="true"
+                              name="mt-file-stg-lov">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-ebs-sr"
+                              isByCopy="true"
+                              name="mt-file-stg-ebs-sr">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-sap-acct"
+                              isByCopy="true"
+                              name="mt-file-stg-sap-acct">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-ebs-sr-bill"
+                              isByCopy="true"
+                              name="mt-file-stg-ebs-sr-bill">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-ebs-sr-ntt"
+                              isByCopy="true"
+                              name="mt-file-stg-ebs-sr-ntt">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-ebs-maintainance"
+                              isByCopy="true"
+                              name="mt-file-stg-ebs-maintainance">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-ebs-sr-type"
+                              isByCopy="true"
+                              name="mt-file-stg-ebs-sr-type">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-ebs-sr-status"
+                              isByCopy="true"
+                              name="mt-file-stg-ebs-sr-status">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-ebs-sr-core-reason"
+                              isByCopy="true"
+                              name="mt-file-stg-ebs-sr-core-reason">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-ebs-sr-resolution-code"
+                              isByCopy="true"
+                              name="mt-file-stg-ebs-sr-resolution-code">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-ebs-sr-tt-notes"
+                              isByCopy="true"
+                              name="mt-file-stg-ebs-sr-tt-notes">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-ebs-case-attachment"
+                              isByCopy="true"
+                              name="mt-file-stg-ebs-case-attachment">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-ebs-contact-man"
+                              isByCopy="true"
+                              name="mt-file-stg-ebs-contact-man">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-sap-address"
+                              isByCopy="true"
+                              name="mt-file-stg-sap-address">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-stg-sap-contact"
+                              isByCopy="true"
+                              name="mt-file-stg-sap-contact">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-file-sh-reconciliation"
+                              isByCopy="true"
+                              name="mt-file-sh-reconciliation">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+            </dependencies>
+         </taskflow>
+      </types1:Entry>
+      <types1:GUID>3eRbwLUtWFclWhRrRG7GAc</types1:GUID>
+      <types1:DisplayName>taskflow_sf_ebs_sap_file_stg</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2023-06-01T09:47:02.699Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>

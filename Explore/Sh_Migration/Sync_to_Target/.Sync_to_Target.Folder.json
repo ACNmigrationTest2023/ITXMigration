@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "0t3xk0nOOO8llcnKWjAjSi",
+    "name" : "Sync_to_Target",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Synchronization task to target data load location",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}

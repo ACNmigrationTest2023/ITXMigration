@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "0Zf0F5aWAb4hJy47d6NzcT",
+    "name" : "Source_to_Stage",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Source to stage mappings created location",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}

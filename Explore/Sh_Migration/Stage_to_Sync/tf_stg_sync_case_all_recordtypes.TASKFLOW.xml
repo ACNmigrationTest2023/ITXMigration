@@ -1,0 +1,1075 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>6GcoiRu5V1FyuRZ-gt-1953830-2022-12-28T19:49:35.919Z::tf.xml</types1:EntryId>
+      <types1:Name>tf_stg_sync_case_all_recordtypes</types1:Name>
+      <types1:MimeType>application/xml+taskflow</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>sowjanya.kannuri@accenture.com</types1:CreatedBy>
+      <types1:CreationDate>2022-12-28T19:49:36Z</types1:CreationDate>
+      <types1:ModifiedBy>praba.selvam@accenture.com</types1:ModifiedBy>
+      <types1:ModificationDate>2023-01-17T07:58:18Z</types1:ModificationDate>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>praba.selvam@accenture.com</types1:PublishedBy>
+      <types1:PublicationDate>2023-01-19T00:51:43Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/tf.tf_stg_sync_case_all_recordtypes/tf_stg_sync_case_all_recordtypes.tf.xml</types1:PublishedContributionId>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <taskflow xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                   xmlns:tfm="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"
+                   xmlns:list="urn:activevos:spi:list:functions"
+                   displayName="tf_stg_sync_case_all_recordtypes"
+                   name="tf_stg_sync_case_all_recordtypes"
+                   overrideAPIName="false">
+            <parameterSet xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"/>
+            <appliesTo/>
+            <description/>
+            <tags/>
+            <generator>Informatica Process Designer 11</generator>
+            <tempFields>
+               <field description=""
+                      name="dt_stg_sync_case_general_queries"
+                      type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-stg-sync-case-general-queries</option>
+                  </options>
+               </field>
+               <field description=""
+                      name="dt_stg_sync_customer_trouble_ticket"
+                      type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-stg-sync-case-customer-trouble-ticket</option>
+                  </options>
+               </field>
+               <field description=""
+                      name="dt_stg_sync_case_kiv_exclusion"
+                      type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-stg-sync-case-kiv-exclusion</option>
+                  </options>
+               </field>
+               <field description=""
+                      name="dt_stg_sync_case_fe_appoitment"
+                      type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-stg-sync-case-fe-appointment</option>
+                  </options>
+               </field>
+               <field description=""
+                      name="dt_stg_sync_case_literature_request"
+                      type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-stg-sync-case-literature-request</option>
+                  </options>
+               </field>
+               <field description="" name="dt_stg_sync_case_ntt" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-stg-sync-case-ntt</option>
+                  </options>
+               </field>
+               <field description=""
+                      name="dt_stg_sync_case_payment_application"
+                      type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-stg-sync-case-payment-application</option>
+                  </options>
+               </field>
+               <field description=""
+                      name="dt_stg_sync_case_refund_waiver"
+                      type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-stg-sync-case-refund-waiver</option>
+                  </options>
+               </field>
+               <field description=""
+                      name="dt_stg_sync_service_modification"
+                      type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-stg-sync-case-service-modification</option>
+                  </options>
+               </field>
+               <field description=""
+                      name="dt_stg_sync_case_billing_queries"
+                      type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                     <option name="referenceTo">$po:mt-stg-sync-case-billing-queries</option>
+                  </options>
+               </field>
+               <field description=""
+                      name="dt_stg_sync_case_all_recordtype"
+                      type="reference">
+                  <options>
+                     <option name="referenceTo">$po:mt-stg-sync-case-all-recordtype</option>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">true</option>
+                  </options>
+               </field>
+            </tempFields>
+            <notes/>
+            <deployment skipIfRunning="false" suspendOnFault="false" tracingLevel="verbose">
+               <rest/>
+            </deployment>
+            <flow id="a">
+               <start id="b">
+                  <link id="lczxjji9" targetId="lczxjjis"/>
+               </start>
+               <eventContainer id="lczxjjis">
+                  <service id="lczxjji8">
+                     <title>dt_stg_sync_case_all_recordtype</title>
+                     <serviceName>ICSExecuteDataTask</serviceName>
+                     <serviceGUID/>
+                     <serviceInput>
+                        <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                        <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                        <parameter name="Task Name" source="constant" updatable="true">mt_stg_sync_case_all_recordtype</parameter>
+                        <parameter name="GUID" source="constant" updatable="true">3niUUPqYokWj88NNgMgTEE</parameter>
+                        <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                        <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                        <parameter name="taskField" source="nested">
+                           <operation source="field" to="mt-stg-sync-case-all-recordtype">temp.dt_stg_sync_case_all_recordtype</operation>
+                        </parameter>
+                     </serviceInput>
+                     <serviceOutput>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_all_recordtype/output/Object_Name">Object Name</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_all_recordtype/output/Run_Id">Run Id</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_all_recordtype/output/Log_Id">Log Id</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_all_recordtype/output/Task_Id">Task Id</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_all_recordtype/output/Task_Status">Task Status</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_all_recordtype/output/Success_Source_Rows">Success Source Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_all_recordtype/output/Failed_Source_Rows">Failed Source Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_all_recordtype/output/Success_Target_Rows">Success Target Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_all_recordtype/output/Failed_Target_Rows">Failed Target Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_all_recordtype/output/Start_Time">Start Time</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_all_recordtype/output/End_Time">End Time</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_all_recordtype/output/Error_Message">Error Message</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_all_recordtype/output/TotalTransErrors">Total Transformation Errors</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_all_recordtype/output/FirstErrorCode">First Error Code</operation>
+                     </serviceOutput>
+                  </service>
+                  <link id="lczxjjia" targetId="lc826rgh"/>
+                  <events>
+                     <catch faultField="temp.dt_stg_sync_case_all_recordtype/fault"
+                            id="lc826rgf"
+                            interrupting="true"
+                            name="error">
+                        <suspend/>
+                     </catch>
+                     <catch faultField="temp.dt_stg_sync_case_all_recordtype/fault"
+                            id="lc826rgg"
+                            interrupting="true"
+                            name="warning">
+                        <suspend/>
+                     </catch>
+                  </events>
+               </eventContainer>
+               <eventContainer id="lc826rgh">
+                  <service id="lc826rfb">
+                     <title>dt_stg_sync_case_general_queries</title>
+                     <serviceName>ICSExecuteDataTask</serviceName>
+                     <serviceGUID/>
+                     <serviceInput>
+                        <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                        <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                        <parameter name="Task Name" source="constant" updatable="true">mt_stg_sync_case_general_queries</parameter>
+                        <parameter name="GUID" source="constant" updatable="true">6mPxadqlIhKgPZp2icKpM3</parameter>
+                        <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                        <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                        <parameter name="taskField" source="nested">
+                           <operation source="field" to="mt-stg-sync-case-general-queries">temp.dt_stg_sync_case_general_queries</operation>
+                        </parameter>
+                     </serviceInput>
+                     <serviceOutput>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_general_queries/output/Object_Name">Object Name</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_general_queries/output/Run_Id">Run Id</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_general_queries/output/Log_Id">Log Id</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_general_queries/output/Task_Id">Task Id</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_general_queries/output/Task_Status">Task Status</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_general_queries/output/Success_Source_Rows">Success Source Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_general_queries/output/Failed_Source_Rows">Failed Source Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_general_queries/output/Success_Target_Rows">Success Target Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_general_queries/output/Failed_Target_Rows">Failed Target Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_general_queries/output/Start_Time">Start Time</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_general_queries/output/End_Time">End Time</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_general_queries/output/Error_Message">Error Message</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_general_queries/output/TotalTransErrors">Total Transformation Errors</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_general_queries/output/FirstErrorCode">First Error Code</operation>
+                     </serviceOutput>
+                  </service>
+                  <link id="lc826rvr" targetId="lc826rwd"/>
+                  <events>
+                     <catch faultField="temp.dt_stg_sync_case_general_queries/fault"
+                            id="lc826rgf"
+                            interrupting="true"
+                            name="error">
+                        <suspend/>
+                     </catch>
+                     <catch faultField="temp.dt_stg_sync_case_general_queries/fault"
+                            id="lc826rgg"
+                            interrupting="true"
+                            name="warning">
+                        <suspend/>
+                     </catch>
+                  </events>
+               </eventContainer>
+               <eventContainer id="lc826rwd">
+                  <service id="lc826rvq">
+                     <title>dt_stg_sync_case_billing_queries</title>
+                     <serviceName>ICSExecuteDataTask</serviceName>
+                     <serviceGUID/>
+                     <serviceInput>
+                        <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                        <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                        <parameter name="Task Name" source="constant" updatable="true">mt_stg_sync_case_billing_queries</parameter>
+                        <parameter name="GUID" source="constant" updatable="true">gaMxipu7iAbcOezx2Rl8AP</parameter>
+                        <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                        <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                        <parameter name="taskField" source="nested">
+                           <operation source="field" to="mt-stg-sync-case-billing-queries">temp.dt_stg_sync_case_billing_queries</operation>
+                        </parameter>
+                     </serviceInput>
+                     <serviceOutput>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_billing_queries/output/Object_Name">Object Name</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_billing_queries/output/Run_Id">Run Id</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_billing_queries/output/Log_Id">Log Id</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_billing_queries/output/Task_Id">Task Id</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_billing_queries/output/Task_Status">Task Status</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_billing_queries/output/Success_Source_Rows">Success Source Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_billing_queries/output/Failed_Source_Rows">Failed Source Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_billing_queries/output/Success_Target_Rows">Success Target Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_billing_queries/output/Failed_Target_Rows">Failed Target Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_billing_queries/output/Start_Time">Start Time</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_billing_queries/output/End_Time">End Time</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_billing_queries/output/Error_Message">Error Message</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_billing_queries/output/TotalTransErrors">Total Transformation Errors</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_billing_queries/output/FirstErrorCode">First Error Code</operation>
+                     </serviceOutput>
+                  </service>
+                  <link id="lc826rvs" targetId="lc826rh1"/>
+                  <events>
+                     <catch faultField="temp.dt_stg_sync_case_billing_queries/fault"
+                            id="lc826rwb"
+                            interrupting="true"
+                            name="error">
+                        <suspend/>
+                     </catch>
+                     <catch faultField="temp.dt_stg_sync_case_billing_queries/fault"
+                            id="lc826rwc"
+                            interrupting="true"
+                            name="warning">
+                        <suspend/>
+                     </catch>
+                  </events>
+               </eventContainer>
+               <eventContainer id="lc826rh1">
+                  <service id="lc826rfh">
+                     <title>dt_stg_sync_customer_trouble_ticket</title>
+                     <serviceName>ICSExecuteDataTask</serviceName>
+                     <serviceGUID/>
+                     <serviceInput>
+                        <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                        <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                        <parameter name="Task Name" source="constant" updatable="true">mt_stg_sync_case_customer_trouble_ticket</parameter>
+                        <parameter name="GUID" source="constant" updatable="true">b9jT4TJJKMtgLMcgeGehcX</parameter>
+                        <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                        <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                        <parameter name="taskField" source="nested">
+                           <operation source="field" to="mt-stg-sync-case-customer-trouble-ticket">temp.dt_stg_sync_customer_trouble_ticket</operation>
+                        </parameter>
+                     </serviceInput>
+                     <serviceOutput>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_customer_trouble_ticket/output/Object_Name">Object Name</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_customer_trouble_ticket/output/Run_Id">Run Id</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_customer_trouble_ticket/output/Log_Id">Log Id</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_customer_trouble_ticket/output/Task_Id">Task Id</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_customer_trouble_ticket/output/Task_Status">Task Status</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_customer_trouble_ticket/output/Success_Source_Rows">Success Source Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_customer_trouble_ticket/output/Failed_Source_Rows">Failed Source Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_customer_trouble_ticket/output/Success_Target_Rows">Success Target Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_customer_trouble_ticket/output/Failed_Target_Rows">Failed Target Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_customer_trouble_ticket/output/Start_Time">Start Time</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_customer_trouble_ticket/output/End_Time">End Time</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_customer_trouble_ticket/output/Error_Message">Error Message</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_customer_trouble_ticket/output/TotalTransErrors">Total Transformation Errors</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_customer_trouble_ticket/output/FirstErrorCode">First Error Code</operation>
+                     </serviceOutput>
+                  </service>
+                  <link id="lc826rfo" targetId="lc826ri2"/>
+                  <events>
+                     <catch faultField="temp.dt_stg_sync_customer_trouble_ticket/fault"
+                            id="lc826rgz"
+                            interrupting="true"
+                            name="error">
+                        <suspend/>
+                     </catch>
+                     <catch faultField="temp.dt_stg_sync_customer_trouble_ticket/fault"
+                            id="lc826rh0"
+                            interrupting="true"
+                            name="warning">
+                        <suspend/>
+                     </catch>
+                  </events>
+               </eventContainer>
+               <eventContainer id="lc826ri2">
+                  <service id="lc826rfn">
+                     <title>dt_stg_sync_case_kiv_exclusion</title>
+                     <serviceName>ICSExecuteDataTask</serviceName>
+                     <serviceGUID/>
+                     <serviceInput>
+                        <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                        <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                        <parameter name="Task Name" source="constant" updatable="true">mt_stg_sync_case_kiv_exclusion</parameter>
+                        <parameter name="GUID" source="constant" updatable="true">1p7jCivs3TydqOhPvdW589</parameter>
+                        <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                        <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                        <parameter name="taskField" source="nested">
+                           <operation source="field" to="mt-stg-sync-case-kiv-exclusion">temp.dt_stg_sync_case_kiv_exclusion</operation>
+                        </parameter>
+                     </serviceInput>
+                     <serviceOutput>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_kiv_exclusion/output/Object_Name">Object Name</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_kiv_exclusion/output/Run_Id">Run Id</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_kiv_exclusion/output/Log_Id">Log Id</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_kiv_exclusion/output/Task_Id">Task Id</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_kiv_exclusion/output/Task_Status">Task Status</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_kiv_exclusion/output/Success_Source_Rows">Success Source Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_kiv_exclusion/output/Failed_Source_Rows">Failed Source Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_kiv_exclusion/output/Success_Target_Rows">Success Target Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_kiv_exclusion/output/Failed_Target_Rows">Failed Target Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_kiv_exclusion/output/Start_Time">Start Time</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_kiv_exclusion/output/End_Time">End Time</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_kiv_exclusion/output/Error_Message">Error Message</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_kiv_exclusion/output/TotalTransErrors">Total Transformation Errors</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_kiv_exclusion/output/FirstErrorCode">First Error Code</operation>
+                     </serviceOutput>
+                  </service>
+                  <link id="lc826rfu" targetId="lc826rj3"/>
+                  <events>
+                     <catch faultField="temp.dt_stg_sync_case_kiv_exclusion/fault"
+                            id="lc826ri0"
+                            interrupting="true"
+                            name="error">
+                        <suspend/>
+                     </catch>
+                     <catch faultField="temp.dt_stg_sync_case_kiv_exclusion/fault"
+                            id="lc826ri1"
+                            interrupting="true"
+                            name="warning">
+                        <suspend/>
+                     </catch>
+                  </events>
+               </eventContainer>
+               <eventContainer id="lc826rj3">
+                  <service id="lc826rft">
+                     <title>dt_stg_sync_case_fe_appoitment</title>
+                     <serviceName>ICSExecuteDataTask</serviceName>
+                     <serviceGUID/>
+                     <serviceInput>
+                        <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                        <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                        <parameter name="Task Name" source="constant" updatable="true">mt_stg_sync_case_fe_appointment</parameter>
+                        <parameter name="GUID" source="constant" updatable="true">9PVRgFcRNfJefCFQx7LaAw</parameter>
+                        <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                        <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                        <parameter name="taskField" source="nested">
+                           <operation source="field" to="mt-stg-sync-case-fe-appointment">temp.dt_stg_sync_case_fe_appoitment</operation>
+                        </parameter>
+                     </serviceInput>
+                     <serviceOutput>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_fe_appoitment/output/Object_Name">Object Name</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_fe_appoitment/output/Run_Id">Run Id</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_fe_appoitment/output/Log_Id">Log Id</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_fe_appoitment/output/Task_Id">Task Id</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_fe_appoitment/output/Task_Status">Task Status</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_fe_appoitment/output/Success_Source_Rows">Success Source Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_fe_appoitment/output/Failed_Source_Rows">Failed Source Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_fe_appoitment/output/Success_Target_Rows">Success Target Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_fe_appoitment/output/Failed_Target_Rows">Failed Target Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_fe_appoitment/output/Start_Time">Start Time</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_fe_appoitment/output/End_Time">End Time</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_fe_appoitment/output/Error_Message">Error Message</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_fe_appoitment/output/TotalTransErrors">Total Transformation Errors</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_fe_appoitment/output/FirstErrorCode">First Error Code</operation>
+                     </serviceOutput>
+                  </service>
+                  <link id="lc826rg0" targetId="lc826rk4"/>
+                  <events>
+                     <catch faultField="temp.dt_stg_sync_case_fe_appoitment/fault"
+                            id="lc826rj1"
+                            interrupting="true"
+                            name="error">
+                        <suspend/>
+                     </catch>
+                     <catch faultField="temp.dt_stg_sync_case_fe_appoitment/fault"
+                            id="lc826rj2"
+                            interrupting="true"
+                            name="warning">
+                        <suspend/>
+                     </catch>
+                  </events>
+               </eventContainer>
+               <eventContainer id="lc826rk4">
+                  <service id="lc826rfz">
+                     <title>dt_stg_sync_case_literature_request</title>
+                     <serviceName>ICSExecuteDataTask</serviceName>
+                     <serviceGUID/>
+                     <serviceInput>
+                        <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                        <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                        <parameter name="Task Name" source="constant" updatable="true">mt_stg_sync_case_literature_request</parameter>
+                        <parameter name="GUID" source="constant" updatable="true">d4gBNwoyuYrgbPOOYlFDGG</parameter>
+                        <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                        <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                        <parameter name="taskField" source="nested">
+                           <operation source="field" to="mt-stg-sync-case-literature-request">temp.dt_stg_sync_case_literature_request</operation>
+                        </parameter>
+                     </serviceInput>
+                     <serviceOutput>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_literature_request/output/Object_Name">Object Name</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_literature_request/output/Run_Id">Run Id</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_literature_request/output/Log_Id">Log Id</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_literature_request/output/Task_Id">Task Id</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_literature_request/output/Task_Status">Task Status</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_literature_request/output/Success_Source_Rows">Success Source Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_literature_request/output/Failed_Source_Rows">Failed Source Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_literature_request/output/Success_Target_Rows">Success Target Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_literature_request/output/Failed_Target_Rows">Failed Target Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_literature_request/output/Start_Time">Start Time</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_literature_request/output/End_Time">End Time</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_literature_request/output/Error_Message">Error Message</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_literature_request/output/TotalTransErrors">Total Transformation Errors</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_literature_request/output/FirstErrorCode">First Error Code</operation>
+                     </serviceOutput>
+                  </service>
+                  <link id="lc826rg6" targetId="lc826rl5"/>
+                  <events>
+                     <catch faultField="temp.dt_stg_sync_case_literature_request/fault"
+                            id="lc826rk2"
+                            interrupting="true"
+                            name="error">
+                        <suspend/>
+                     </catch>
+                     <catch faultField="temp.dt_stg_sync_case_literature_request/fault"
+                            id="lc826rk3"
+                            interrupting="true"
+                            name="warning">
+                        <suspend/>
+                     </catch>
+                  </events>
+               </eventContainer>
+               <eventContainer id="lc826rl5">
+                  <service id="lc826rg5">
+                     <title>dt_stg_sync_case_ntt</title>
+                     <serviceName>ICSExecuteDataTask</serviceName>
+                     <serviceGUID/>
+                     <serviceInput>
+                        <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                        <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                        <parameter name="Task Name" source="constant" updatable="true">mt_stg_sync_case_ntt</parameter>
+                        <parameter name="GUID" source="constant" updatable="true">3nRw0Y7gGCgcgb6zWREHWX</parameter>
+                        <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                        <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                        <parameter name="taskField" source="nested">
+                           <operation source="field" to="mt-stg-sync-case-ntt">temp.dt_stg_sync_case_ntt</operation>
+                        </parameter>
+                     </serviceInput>
+                     <serviceOutput>
+                        <operation source="field" to="temp.dt_stg_sync_case_ntt/output/Object_Name">Object Name</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_ntt/output/Run_Id">Run Id</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_ntt/output/Log_Id">Log Id</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_ntt/output/Task_Id">Task Id</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_ntt/output/Task_Status">Task Status</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_ntt/output/Success_Source_Rows">Success Source Rows</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_ntt/output/Failed_Source_Rows">Failed Source Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_ntt/output/Success_Target_Rows">Success Target Rows</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_ntt/output/Failed_Target_Rows">Failed Target Rows</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_ntt/output/Start_Time">Start Time</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_ntt/output/End_Time">End Time</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_ntt/output/Error_Message">Error Message</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_ntt/output/TotalTransErrors">Total Transformation Errors</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_ntt/output/FirstErrorCode">First Error Code</operation>
+                     </serviceOutput>
+                  </service>
+                  <link id="lc826rgc" targetId="lc826rm6"/>
+                  <events>
+                     <catch faultField="temp.dt_stg_sync_case_ntt/fault"
+                            id="lc826rl3"
+                            interrupting="true"
+                            name="error">
+                        <suspend/>
+                     </catch>
+                     <catch faultField="temp.dt_stg_sync_case_ntt/fault"
+                            id="lc826rl4"
+                            interrupting="true"
+                            name="warning">
+                        <suspend/>
+                     </catch>
+                  </events>
+               </eventContainer>
+               <eventContainer id="lc826rm6">
+                  <service id="lc826rgb">
+                     <title>dt_stg_sync_case_payment_application</title>
+                     <serviceName>ICSExecuteDataTask</serviceName>
+                     <serviceGUID/>
+                     <serviceInput>
+                        <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                        <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                        <parameter name="Task Name" source="constant" updatable="true">mt_stg_sync_case_payment_application</parameter>
+                        <parameter name="GUID" source="constant" updatable="true">lkTLj3P2JGzgim3BL4ecQN</parameter>
+                        <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                        <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                        <parameter name="taskField" source="nested">
+                           <operation source="field" to="mt-stg-sync-case-payment-application">temp.dt_stg_sync_case_payment_application</operation>
+                        </parameter>
+                     </serviceInput>
+                     <serviceOutput>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_payment_application/output/Object_Name">Object Name</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_payment_application/output/Run_Id">Run Id</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_payment_application/output/Log_Id">Log Id</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_payment_application/output/Task_Id">Task Id</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_payment_application/output/Task_Status">Task Status</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_payment_application/output/Success_Source_Rows">Success Source Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_payment_application/output/Failed_Source_Rows">Failed Source Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_payment_application/output/Success_Target_Rows">Success Target Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_payment_application/output/Failed_Target_Rows">Failed Target Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_payment_application/output/Start_Time">Start Time</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_payment_application/output/End_Time">End Time</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_payment_application/output/Error_Message">Error Message</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_payment_application/output/TotalTransErrors">Total Transformation Errors</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_payment_application/output/FirstErrorCode">First Error Code</operation>
+                     </serviceOutput>
+                  </service>
+                  <link id="lc826rn8" targetId="lc826rnj"/>
+                  <events>
+                     <catch faultField="temp.dt_stg_sync_case_payment_application/fault"
+                            id="lc826rm4"
+                            interrupting="true"
+                            name="error">
+                        <suspend/>
+                     </catch>
+                     <catch faultField="temp.dt_stg_sync_case_payment_application/fault"
+                            id="lc826rm5"
+                            interrupting="true"
+                            name="warning">
+                        <suspend/>
+                     </catch>
+                  </events>
+               </eventContainer>
+               <eventContainer id="lc826rnj">
+                  <service id="lc826rn7">
+                     <title>dt_stg_sync_case_refund_waiver</title>
+                     <serviceName>ICSExecuteDataTask</serviceName>
+                     <serviceGUID/>
+                     <serviceInput>
+                        <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                        <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                        <parameter name="Task Name" source="constant" updatable="true">mt_stg_sync_case_refund_waiver</parameter>
+                        <parameter name="GUID" source="constant" updatable="true">l0TPQRs3RWUgtN8bL3dbyg</parameter>
+                        <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                        <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                        <parameter name="taskField" source="nested">
+                           <operation source="field" to="mt-stg-sync-case-refund-waiver">temp.dt_stg_sync_case_refund_waiver</operation>
+                        </parameter>
+                     </serviceInput>
+                     <serviceOutput>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_refund_waiver/output/Object_Name">Object Name</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_refund_waiver/output/Run_Id">Run Id</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_refund_waiver/output/Log_Id">Log Id</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_refund_waiver/output/Task_Id">Task Id</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_refund_waiver/output/Task_Status">Task Status</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_refund_waiver/output/Success_Source_Rows">Success Source Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_refund_waiver/output/Failed_Source_Rows">Failed Source Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_refund_waiver/output/Success_Target_Rows">Success Target Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_refund_waiver/output/Failed_Target_Rows">Failed Target Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_refund_waiver/output/Start_Time">Start Time</operation>
+                        <operation source="field" to="temp.dt_stg_sync_case_refund_waiver/output/End_Time">End Time</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_refund_waiver/output/Error_Message">Error Message</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_refund_waiver/output/TotalTransErrors">Total Transformation Errors</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_case_refund_waiver/output/FirstErrorCode">First Error Code</operation>
+                     </serviceOutput>
+                  </service>
+                  <link id="lc826rne" targetId="lc826rok"/>
+                  <events>
+                     <catch faultField="temp.dt_stg_sync_case_refund_waiver/fault"
+                            id="lc826rnh"
+                            interrupting="true"
+                            name="error">
+                        <suspend/>
+                     </catch>
+                     <catch faultField="temp.dt_stg_sync_case_refund_waiver/fault"
+                            id="lc826rni"
+                            interrupting="true"
+                            name="warning">
+                        <suspend/>
+                     </catch>
+                  </events>
+               </eventContainer>
+               <eventContainer id="lc826rok">
+                  <service id="lc826rnd">
+                     <title>dt_stg_sync_service_modification</title>
+                     <serviceName>ICSExecuteDataTask</serviceName>
+                     <serviceGUID/>
+                     <serviceInput>
+                        <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                        <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                        <parameter name="Task Name" source="constant" updatable="true">mt_stg_sync_case_service_modification</parameter>
+                        <parameter name="GUID" source="constant" updatable="true">2caARgBRV6gb2H8ioxmwwp</parameter>
+                        <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                        <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                        <parameter name="taskField" source="nested">
+                           <operation source="field" to="mt-stg-sync-case-service-modification">temp.dt_stg_sync_service_modification</operation>
+                        </parameter>
+                     </serviceInput>
+                     <serviceOutput>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_service_modification/output/Object_Name">Object Name</operation>
+                        <operation source="field" to="temp.dt_stg_sync_service_modification/output/Run_Id">Run Id</operation>
+                        <operation source="field" to="temp.dt_stg_sync_service_modification/output/Log_Id">Log Id</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_service_modification/output/Task_Id">Task Id</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_service_modification/output/Task_Status">Task Status</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_service_modification/output/Success_Source_Rows">Success Source Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_service_modification/output/Failed_Source_Rows">Failed Source Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_service_modification/output/Success_Target_Rows">Success Target Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_service_modification/output/Failed_Target_Rows">Failed Target Rows</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_service_modification/output/Start_Time">Start Time</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_service_modification/output/End_Time">End Time</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_service_modification/output/Error_Message">Error Message</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_service_modification/output/TotalTransErrors">Total Transformation Errors</operation>
+                        <operation source="field"
+                                   to="temp.dt_stg_sync_service_modification/output/FirstErrorCode">First Error Code</operation>
+                     </serviceOutput>
+                  </service>
+                  <link id="lc826rnf" targetId="c"/>
+                  <events>
+                     <catch faultField="temp.dt_stg_sync_service_modification/fault"
+                            id="lc826roi"
+                            interrupting="true"
+                            name="error">
+                        <suspend/>
+                     </catch>
+                     <catch faultField="temp.dt_stg_sync_service_modification/fault"
+                            id="lc826roj"
+                            interrupting="true"
+                            name="warning">
+                        <suspend/>
+                     </catch>
+                  </events>
+               </eventContainer>
+               <end id="c"/>
+            </flow>
+            <dependencies>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-stg-sync-case-general-queries"
+                              isByCopy="true"
+                              name="mt-stg-sync-case-general-queries">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-stg-sync-case-customer-trouble-ticket"
+                              isByCopy="true"
+                              name="mt-stg-sync-case-customer-trouble-ticket">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-stg-sync-case-kiv-exclusion"
+                              isByCopy="true"
+                              name="mt-stg-sync-case-kiv-exclusion">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-stg-sync-case-fe-appointment"
+                              isByCopy="true"
+                              name="mt-stg-sync-case-fe-appointment">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-stg-sync-case-literature-request"
+                              isByCopy="true"
+                              name="mt-stg-sync-case-literature-request">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-stg-sync-case-ntt"
+                              isByCopy="true"
+                              name="mt-stg-sync-case-ntt">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-stg-sync-case-payment-application"
+                              isByCopy="true"
+                              name="mt-stg-sync-case-payment-application">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-stg-sync-case-refund-waiver"
+                              isByCopy="true"
+                              name="mt-stg-sync-case-refund-waiver">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-stg-sync-case-service-modification"
+                              isByCopy="true"
+                              name="mt-stg-sync-case-service-modification">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-stg-sync-case-billing-queries"
+                              isByCopy="true"
+                              name="mt-stg-sync-case-billing-queries">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-stg-sync-case-all-recordtype"
+                              isByCopy="true"
+                              name="mt-stg-sync-case-all-recordtype">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+            </dependencies>
+         </taskflow>
+      </types1:Entry>
+      <types1:GUID>8OIGxIiVJWUe5Uzu15SnuX</types1:GUID>
+      <types1:DisplayName>tf_stg_sync_case_all_recordtypes</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2023-06-01T09:47:02.762Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>

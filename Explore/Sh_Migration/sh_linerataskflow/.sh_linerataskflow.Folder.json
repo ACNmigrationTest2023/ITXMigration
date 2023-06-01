@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "4bGIwrA84QkdOnaU0bV1qC",
+    "name" : "sh_linerataskflow",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Entity load order defined here",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}

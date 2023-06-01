@@ -1,0 +1,104 @@
+{
+  "objectInfo" : {
+    "id" : "7Tad1SLpBfXcTVkaahWqkU",
+    "name" : "taskflow_sh_file_stg_data_load",
+    "type" : "TASKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "BjISUXL86zqzm5Y-gt-4137209-2023-01-12T20:00:05.449Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "objectRefs" : [ {
+    "id" : "1pp9HCkodMnigTm0Uia82L",
+    "name" : "taskflow_execute_validation_rule",
+    "type" : "TASKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "FuxTtlI20hELlBW-gt-1036357-2022-12-08T19:02:52.513Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Sh_Migration/Sh_Taskflow"
+  }, {
+    "id" : "3eRbwLUtWFclWhRrRG7GAc",
+    "name" : "taskflow_sf_ebs_sap_file_stg",
+    "type" : "TASKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "HCwkNmumf6S3wOL-gt-884793-2022-12-07T12:35:48.53Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Sh_Migration/Sh_Taskflow"
+  }, {
+    "id" : "jPsojbYJAG2g3AMO5w7a0V",
+    "name" : "tf_ebs_file_stage_data_load",
+    "type" : "TASKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6fUmm7O2htghGZ5-gt-2725720-2023-01-03T09:28:39.933Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Sh_CS_Migration/CS_taskflow"
+  }, {
+    "id" : "5z2wSeVI00hi5z3vc0FwoZ",
+    "name" : "taskflow_execute_sh_mig_sftp_Srcfiles",
+    "type" : "TASKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "OWIuOSSHCwkNmum-gt-1596748-2022-12-13T09:15:06.54Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Sh_Migration/Sh_Taskflow"
+  } ]
+}
