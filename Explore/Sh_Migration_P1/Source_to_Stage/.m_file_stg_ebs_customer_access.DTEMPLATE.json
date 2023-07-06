@@ -18,7 +18,7 @@
       "additionalInfo" : {
         "description" : "This location holds mappings from source to stage with customer access data.",
         "contentType" : "JSON",
-        "documentState" : "INVALID"
+        "documentState" : "VALID"
       }
     }
   },
