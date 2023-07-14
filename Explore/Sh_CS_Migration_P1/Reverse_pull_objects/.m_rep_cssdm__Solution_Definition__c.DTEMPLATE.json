@@ -44,8 +44,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "5yRVwmNzNZRbaTvVhnITId",
-    "name" : "SH_TGT_SFDC_CSUPDATE",
+    "id" : "9BbRLvdO9WclfHAtYXCK2C",
+    "name" : "SH_Data_Migration_SFDC",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -53,7 +53,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0102UZ0B00000000000I"
+        "repoHandle" : "0102UZ0B00000000000S"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
