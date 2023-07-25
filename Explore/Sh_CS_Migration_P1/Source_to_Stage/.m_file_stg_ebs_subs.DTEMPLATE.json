@@ -16,7 +16,7 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "Description  - Load EBS .csv file to postgres table\nCreated by   - ACC-NDARRELL\nCreated on   - 15-Nov-2022\nModified on -  ",
+        "description" : "",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
