@@ -24,8 +24,8 @@
   },
   "dataFileExtension" : "zip",
   "objectRefs" : [ {
-    "id" : "irZpk2lcq2Lh5v2PiTa4Q2",
-    "name" : "ebs_source_stage",
+    "id" : "0aa38HfbIjadqoKlbnU14y",
+    "name" : "SH_Data_Migration_POSTGRES",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -33,7 +33,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0102UZ0B000000000003"
+        "repoHandle" : "0102UZ0B00000000000R"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
