@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "lDcLEuLICaYhM7F6scSVIs",
+    "id" : "a888IN5vjGlkGoryLYEh81",
     "name" : "m_file_stg_ebs_offer_attr",
     "type" : "DTEMPLATE",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0102UZ170000000000HW"
+        "repoHandle" : "0102UZ170000000000OF"
       },
       "contextAttributes" : [ {
         "name" : "id",
