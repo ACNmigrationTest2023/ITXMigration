@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "2e3piF730IVhRPdZ8CLv6p",
-    "name" : "mt_stg_sync_address",
+    "name" : "mt_stg_sync_ebs_address",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -65,7 +65,7 @@
     "path" : "/SYS"
   }, {
     "id" : "9ibFr0EMIH9gjyFq2GSXUt",
-    "name" : "m_stg_sync_ebs_sap_address",
+    "name" : "m_stg_sync_ebs_address",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -75,10 +75,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ170000000000J3"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "This place holds mappings from stg to sync with address data.",
         "contentType" : "JSON",
