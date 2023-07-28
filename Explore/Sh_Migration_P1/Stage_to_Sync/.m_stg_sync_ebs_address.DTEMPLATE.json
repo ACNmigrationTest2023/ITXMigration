@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "9ibFr0EMIH9gjyFq2GSXUt",
-    "name" : "m_stg_sync_ebs_sap_address",
+    "name" : "m_stg_sync_ebs_address",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
