@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "100xMxR4w21bYydPCJ1yKD",
-    "name" : "m_sync_cs_csord__Service__c",
+    "name" : "m_sync_ebs_csord__Service__c",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
