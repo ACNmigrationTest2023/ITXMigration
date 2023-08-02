@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "at88m8zo6F2hrPVJArCpe5",
-    "name" : "mt_stg_service_line_item_sync",
+    "name" : "mt_stg_ebs_service_line_item_sync",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -25,7 +25,7 @@
   "dataFileExtension" : "zip",
   "objectRefs" : [ {
     "id" : "kDi2YAYrKQshU6UoD1IZGn",
-    "name" : "m_stg_service_line_item_sync",
+    "name" : "m_stg_ebs_service_line_item_sync",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -35,10 +35,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ170000000000E0"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
