@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "kDi2YAYrKQshU6UoD1IZGn",
-    "name" : "m_stg_service_line_item_sync",
+    "name" : "m_stg_ebs_service_line_item_sync",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
