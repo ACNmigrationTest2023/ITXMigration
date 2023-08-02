@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "7lklAqGdHXTgQhBzarog0j",
-    "name" : "mt_sync_cs_csord__Service__c",
+    "name" : "mt_sync_ebs_csord__Service__c",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -65,7 +65,7 @@
     "path" : "/SYS"
   }, {
     "id" : "100xMxR4w21bYydPCJ1yKD",
-    "name" : "m_sync_cs_csord__Service__c",
+    "name" : "m_sync_ebs_csord__Service__c",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -75,10 +75,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ170000000000MQ"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
