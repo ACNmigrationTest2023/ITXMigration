@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "fnpIWtAxhmTis3xeRQnUWc",
+    "name" : "MYR_Migration_CS",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Loading of Cloud Sense entities (Phase 1) without the schema name.",
+        "contentType" : null,
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}
