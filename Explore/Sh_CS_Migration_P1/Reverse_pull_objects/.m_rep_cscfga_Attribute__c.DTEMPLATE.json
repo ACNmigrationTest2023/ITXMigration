@@ -45,7 +45,7 @@
     "path" : "/SYS"
   }, {
     "id" : "9BbRLvdO9WclfHAtYXCK2C",
-    "name" : "SH_Data_Migration_SFDC",
+    "name" : "MYR_Data_Migration_SFDC",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
