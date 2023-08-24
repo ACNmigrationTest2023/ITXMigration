@@ -1,0 +1,68 @@
+{
+  "objectInfo" : {
+    "id" : "9Sth6F0K6SQeu51QKMccWV",
+    "name" : "tf_Subscription_Load",
+    "type" : "WORKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0N000000000027"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "**Prerequisite**  After tf_Solution",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2023-08-24T02:44:55.928Z",
+  "objectRefs" : [ {
+    "id" : "1ieDwVqW8ecixzMsnpqqQm",
+    "name" : "mt_csord__Subscription__c",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z0000000000HW"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Sh_CS_Migration_P1/Sync_to_Target"
+  }, {
+    "id" : "a3KVAgwoamzj1XPFcy8IAS",
+    "name" : "mt_rep_csord__Subscription__c",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z0000000000HV"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Sh_CS_Migration_P1/Reverse_pull_objects"
+  } ]
+}

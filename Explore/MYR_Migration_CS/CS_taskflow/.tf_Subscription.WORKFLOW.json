@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "2LugayPaMMVkStZEGnUtet",
+    "name" : "tf_Subscription",
+    "type" : "WORKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0N000000000021"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "**Prerequisite**  After tf_Solution",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2023-08-24T02:44:55.935Z",
+  "objectRefs" : [ {
+    "id" : "9duQTQMorNegIBRhjLmL0V",
+    "name" : "mt_stg_ebs_subscription_sync",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z0000000000HG"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "mt_stg_ebs_subscription_sync",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Sh_CS_Migration_P1/Stage_to_Sync"
+  } ]
+}

@@ -1,0 +1,108 @@
+{
+  "objectInfo" : {
+    "id" : "lEQAbso5yayg4eHrYqNZIO",
+    "name" : "tf_Product_Configuration_2",
+    "type" : "WORKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0N00000000001Z"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "**Prerequisite**  After completion of tf_Product_Configuration_1",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2023-08-24T02:44:55.927Z",
+  "objectRefs" : [ {
+    "id" : "aOglhWpkyMak58g5McMDk4",
+    "name" : "mt_cscfga__Product_Configuration__c_UPD_TEMP_SOL_ID",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z0000000000I9"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Sh_CS_Migration_P1/Stage_to_Sync"
+  }, {
+    "id" : "5EazaxetsIAjZe6ylOdQUs",
+    "name" : "mt_stg_ebs_product_configuration_sync_2",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z0000000000I8"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Sh_CS_Migration_P1/Stage_to_Sync"
+  }, {
+    "id" : "9UqEeB0XnY6kqKpaR7jCox",
+    "name" : "mt_cscfga__Product_Configuration__c_UPD_SOL_ID",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z0000000000IA"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Sh_CS_Migration_P1/Stage_to_Sync"
+  }, {
+    "id" : "hdKUzGywEmAcSmehVKQ2S4",
+    "name" : "mt_stg_ebs_product_configuration_sync_1_guid_update",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z0000000000IB"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Sh_CS_Migration_P1/Stage_to_Sync"
+  } ]
+}

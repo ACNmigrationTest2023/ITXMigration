@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "6TwJjktfB2oehnIP0p1amG",
+    "name" : "json_pc_oe_myr",
+    "type" : "HSCHEMA",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ3600000000002V"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2023-08-24T02:44:55.937Z",
+  "objectRefs" : [ ]
+}

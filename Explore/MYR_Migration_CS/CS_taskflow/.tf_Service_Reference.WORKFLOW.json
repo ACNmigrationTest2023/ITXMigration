@@ -1,0 +1,68 @@
+{
+  "objectInfo" : {
+    "id" : "2s9pw3Bp2Wnlr5aBlsIGSQ",
+    "name" : "tf_Service_Reference",
+    "type" : "WORKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0N000000000026"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "**Prerequisite**  1. Main Service table load 2. Addon Service table load",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2023-08-24T02:44:55.929Z",
+  "objectRefs" : [ {
+    "id" : "9OMtz6XuK87cMu1nWioh2M",
+    "name" : "mt_csord__Service__c_UPD_Service_ID",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z0000000000IJ"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Sh_CS_Migration_P1/Stage_to_Sync"
+  }, {
+    "id" : "5LwaIUEroCgkEzh8h5qg4t",
+    "name" : "mt_m_REP_SF_Service_linkage",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z0000000000IK"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Sh_CS_Migration_P1/Sync_to_Target"
+  } ]
+}

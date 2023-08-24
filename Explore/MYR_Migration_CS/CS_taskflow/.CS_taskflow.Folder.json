@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "frwAvvzgrs7c6icAe4tgMf",
+    "name" : "CS_taskflow",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2023-08-24T02:44:55.921Z",
+  "objectRefs" : [ ]
+}

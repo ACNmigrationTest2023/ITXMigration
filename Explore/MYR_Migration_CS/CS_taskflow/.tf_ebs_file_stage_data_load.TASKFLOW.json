@@ -1,0 +1,705 @@
+{
+  "objectInfo" : {
+    "id" : "3T08CMLEG2ljI11hfHYB6q",
+    "name" : "tf_ebs_file_stage_data_load",
+    "type" : "TASKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "IdvH2i2B7O2htgh-gt-1545552-2023-08-05T01:39:06.557Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "updateTime" : "2023-08-24T02:44:55.931Z",
+  "objectRefs" : [ {
+    "id" : "6fMSBnXVk8sfKvQ32Q32G7",
+    "name" : "mt_file_stg_ebs_promotion_item",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z000000000131"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "88N3LsSGEmtjktgxQF44QE",
+    "name" : "mt_file_stg_ebs_all_serv_type",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z00000000012Z"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "fwVK6wxozavgfMyIN6YDQd",
+    "name" : "mt_file_stg_ebs_order_item",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z00000000013B"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "0MRW0nhgTnZeZC4vRzGXqZ",
+    "name" : "mt_file_stg_ebs_gm_model",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z00000000013I"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "6XbWrDR3yGRifXdzVabO2j",
+    "name" : "mt_file_stg_ebs_quote_item",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z000000000135"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "2t7am7oLT21cJWCTqFKWaO",
+    "name" : "mt_file_stg_ebs_offer_type",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z00000000013J"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Mapping task to load .csv file to Postgres table",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "8xaLcwJV0v5cnxSaN7LsMD",
+    "name" : "mt_file_stg_ebs_indep_prod_spec",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z000000000133"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "8IVT2wHideIcR6dVHYBHqo",
+    "name" : "mt_file_stg_ebs_gm_goods_categ",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z000000000137"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "cqo0ReKVueSj6M5YqmoK6Z",
+    "name" : "mt_file_stg_ebs_prod_attr_value",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z00000000011R"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Mapping task to load .csv file to Postgres table",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "7kKe5LPGe8cfoKthsgVcgP",
+    "name" : "mt_file_stg_ebs_entitlements",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z000000000139"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "8f2EBJgvXaacuWLdmgCwy1",
+    "name" : "mt_file_stg_ebs_gm_brand",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z00000000012Y"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "1KrDxAcfSsdio62y3oocs3",
+    "name" : "mt_file_stg_ebs_gm_goods_type",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z00000000013E"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "2P6eNVme4a5j56FlN2UwEz",
+    "name" : "mt_file_stg_ebs_acc_nbr",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z000000000117"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "fJxdJQJJ2Gqf7F4PzmSA2X",
+    "name" : "mt_file_ebs_stg_sim_state",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z0000000000YZ"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "0WXsLZoLsE0bKwLAGJAgqo",
+    "name" : "mt_file_stg_ebs_used_res",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z000000000138"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Mapping task to load .csv file to Postgres table",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "gxLLd2708WUgdVZpGTCiyT",
+    "name" : "mt_file_stg_ebs_subs_goods_inst",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z000000000124"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "lL9kG4ACnANgDWhdq0myQa",
+    "name" : "mt_file_stg_ebs_goods_order_attr",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z0000000000YV"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "7nSZxxbs7KBdf3f8wlV3Oc",
+    "name" : "mt_file_stg_ebs_sim_type",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z00000000013F"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Mapping task to load .csv file to Postgres table",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "abZ1hznYlwBjFKYqhOj9Ye",
+    "name" : "mt_file_stg_ebs_goods_order",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z00000000013K"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "3M3ROahEdsDbTgMjoECgwC",
+    "name" : "mt_file_stg_ebs_promotion",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z000000000132"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "3DLDKOrUhdCdot0JJxdfMK",
+    "name" : "mt_file_stg_ebs_subs",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z00000000013A"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Mapping task to load .csv file to Postgres table",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "aiMAecRrGXJeNm3GOYsmIm",
+    "name" : "mt_file_stg_ebs_offer",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z000000000130"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Mapping task to load .csv file to Postgres table",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "7okpVR2mOrTkQSH0gFIJGH",
+    "name" : "mt_file_ebs_subs",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z00000000013G"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Load EBS file ",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "fTzhRcwho8qfSIo3Uv73ol",
+    "name" : "mt_file_stg_m365_service",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z000000000127"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "5FwQny4OoZadQMSj72WwqU",
+    "name" : "mt_file_stg_ebs_EBS_DO_GOODS_INST",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z00000000012B"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "aelpIkNRc15iuwW0HwaewE",
+    "name" : "mt_file_stg_ebs_order_reason",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z000000000134"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "3SuoU1sSp3GbJLyJQwbgMG",
+    "name" : "mt_file_stg_ebs_subs_plan",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z00000000012W"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "9Q32ac3T2DMh7tGHR5OT4D",
+    "name" : "mt_file_stg_ebs_subs_event",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z000000000136"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "1pdo94dD2LYf4kbki86zCB",
+    "name" : "mt_file_stg_ebs_prod",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z00000000010S"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Mapping task to load .csv file to Postgres table",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "ecbgyGlLZOhlrus0hH4rUD",
+    "name" : "mt_file_stg_ebs_sim_card",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z00000000013C"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "2Nk5RgEsEWQlKslMqCwwyp",
+    "name" : "mt_file_stg_ebs_prod_vas",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z00000000013D"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "1873AGTcjCkbVzEpJ2dOQL",
+    "name" : "mt_file_stg_ebs_res_type",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z00000000013H"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Mapping task to load .csv file to Postgres table",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "eerl8gAqEeOb8cjkAHUHSo",
+    "name" : "mt_m_file_stg_ebs_quotaion",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z000000000128"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  }, {
+    "id" : "8JxFu4gvFMVj50Q2c3ML2D",
+    "name" : "mt_file_stg_ebs_prod_state",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z0000000000YL"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Mapping task to load .csv file to Postgres table",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
+  } ]
+}

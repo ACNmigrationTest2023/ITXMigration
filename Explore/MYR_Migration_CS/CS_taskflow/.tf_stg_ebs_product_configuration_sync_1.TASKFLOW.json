@@ -1,0 +1,125 @@
+{
+  "objectInfo" : {
+    "id" : "czOU69QtucfbUAR6DfRrE5",
+    "name" : "tf_stg_ebs_product_configuration_sync_1",
+    "type" : "TASKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "QZuPtokMJoGsF4X-gt-1545636-2023-08-05T01:39:35.684Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "1. Main Service\n2. Addon\n3. Device \n4. Device Addon \n5. Sharing Service\n6. Sharing Service Addon",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "updateTime" : "2023-08-24T02:44:55.934Z",
+  "objectRefs" : [ {
+    "id" : "17mU73c3dcFio5LbWOmE6z",
+    "name" : "mt_stg_ebs_pc_main_sync_1",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z00000000013Z"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Stage_to_Sync"
+  }, {
+    "id" : "3CtNK2uhQMSleVUHBzYAGM",
+    "name" : "mt_stg_ebs_pc_addon_sync_1",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z0000000000ZI"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Stage_to_Sync"
+  }, {
+    "id" : "8cd8cgjin1Ui2AfhhOOdQI",
+    "name" : "mt_stg_ebs_pc_device_addon_sync_1",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z000000000140"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Stage_to_Sync"
+  }, {
+    "id" : "8pN9TPbLVwll6dgpNMPXIw",
+    "name" : "mt_stg_ebs_pc_device_sync_1",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z000000000141"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Stage_to_Sync"
+  }, {
+    "id" : "5D2Uhu7mNuLh7QBkO27Aos",
+    "name" : "mt_stg_ebs_pc_sharing_sync_1",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0Z00000000011J"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/Stage_to_Sync"
+  } ]
+}

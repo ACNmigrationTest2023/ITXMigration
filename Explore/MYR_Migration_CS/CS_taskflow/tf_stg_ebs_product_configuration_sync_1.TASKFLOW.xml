@@ -1,0 +1,446 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>QZuPtokMJoGsF4X-gt-1545636-2023-08-05T01:39:35.684Z::tf.xml</types1:EntryId>
+      <types1:Name>tf_stg_ebs_product_configuration_sync_1-2</types1:Name>
+      <types1:MimeType>application/xml+taskflow</types1:MimeType>
+      <types1:Description>1. Main Service
+2. Addon
+3. Device 
+4. Device Addon 
+5. Sharing Service
+6. Sharing Service Addon</types1:Description>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>mark.leonard.f.gado@accenture.com</types1:CreatedBy>
+      <types1:CreationDate>2023-08-05T01:39:36Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <taskflow xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                   xmlns:tfm="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"
+                   xmlns:list="urn:activevos:spi:list:functions"
+                   displayName="tf_stg_ebs_product_configuration_sync_1"
+                   name="tf_stg_ebs_product_configuration_sync_1-2"
+                   overrideAPIName="false">
+            <parameterSet xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"/>
+            <appliesTo/>
+            <description>1. Main Service
+2. Addon
+3. Device 
+4. Device Addon 
+5. Sharing Service
+6. Sharing Service Addon</description>
+            <tags/>
+            <generator>Informatica Process Designer 11</generator>
+            <tempFields>
+               <field description="" name="pc_main" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:mt-stg-ebs-pc-main-sync-1</option>
+                  </options>
+               </field>
+               <field description="" name="pc_addon" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:mt-stg-ebs-pc-addon-sync-1</option>
+                  </options>
+               </field>
+               <field description="" name="pc_device" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">false</option>
+                     <option name="referenceTo">$po:mt-stg-ebs-pc-device-sync-1</option>
+                  </options>
+               </field>
+               <field description="" name="pc_device_addon" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">false</option>
+                     <option name="referenceTo">$po:mt-stg-ebs-pc-device-addon-sync-1</option>
+                  </options>
+               </field>
+               <field description="" name="pc_sharing" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">false</option>
+                     <option name="referenceTo">$po:mt-stg-ebs-pc-sharing-sync-1</option>
+                  </options>
+               </field>
+            </tempFields>
+            <notes/>
+            <deployment skipIfRunning="false" suspendOnFault="false" tracingLevel="verbose">
+               <rest/>
+            </deployment>
+            <flow id="a">
+               <start id="b">
+                  <link id="j3wfjy2l" targetId="ldvr518a"/>
+               </start>
+               <eventContainer id="ldvr518a">
+                  <service id="j3wfjy2k">
+                     <title>pc_main</title>
+                     <serviceName>ICSExecuteDataTask</serviceName>
+                     <serviceGUID/>
+                     <serviceInput>
+                        <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                        <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                        <parameter name="Task Name" source="constant" updatable="true">mt_stg_ebs_pc_main_sync_1</parameter>
+                        <parameter name="GUID" source="constant" updatable="true">17mU73c3dcFio5LbWOmE6z</parameter>
+                        <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                        <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                        <parameter name="taskField" source="nested">
+                           <operation source="field" to="mt-stg-ebs-pc-main-sync-1">temp.pc_main</operation>
+                        </parameter>
+                     </serviceInput>
+                     <serviceOutput>
+                        <operation source="field" to="temp.pc_main/output/Object_Name">Object Name</operation>
+                        <operation source="field" to="temp.pc_main/output/Run_Id">Run Id</operation>
+                        <operation source="field" to="temp.pc_main/output/Log_Id">Log Id</operation>
+                        <operation source="field" to="temp.pc_main/output/Task_Id">Task Id</operation>
+                        <operation source="field" to="temp.pc_main/output/Task_Status">Task Status</operation>
+                        <operation source="field" to="temp.pc_main/output/Success_Source_Rows">Success Source Rows</operation>
+                        <operation source="field" to="temp.pc_main/output/Failed_Source_Rows">Failed Source Rows</operation>
+                        <operation source="field" to="temp.pc_main/output/Success_Target_Rows">Success Target Rows</operation>
+                        <operation source="field" to="temp.pc_main/output/Failed_Target_Rows">Failed Target Rows</operation>
+                        <operation source="field" to="temp.pc_main/output/Start_Time">Start Time</operation>
+                        <operation source="field" to="temp.pc_main/output/End_Time">End Time</operation>
+                        <operation source="field" to="temp.pc_main/output/Error_Message">Error Message</operation>
+                        <operation source="field" to="temp.pc_main/output/TotalTransErrors">Total Transformation Errors</operation>
+                        <operation source="field" to="temp.pc_main/output/FirstErrorCode">First Error Code</operation>
+                     </serviceOutput>
+                  </service>
+                  <link id="j3wfjy2t" targetId="ldvr519c"/>
+                  <events>
+                     <catch faultField="temp.pc_main/fault"
+                            id="ldvr5188"
+                            interrupting="true"
+                            name="error">
+                        <suspend/>
+                     </catch>
+                     <catch faultField="temp.pc_main/fault"
+                            id="ldvr5189"
+                            interrupting="true"
+                            name="warning"/>
+                  </events>
+               </eventContainer>
+               <eventContainer id="ldvr519c">
+                  <service id="j3wfjy2s">
+                     <title>pc_addon</title>
+                     <serviceName>ICSExecuteDataTask</serviceName>
+                     <serviceGUID/>
+                     <serviceInput>
+                        <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                        <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                        <parameter name="Task Name" source="constant" updatable="true">mt_stg_ebs_pc_addon_sync_1</parameter>
+                        <parameter name="GUID" source="constant" updatable="true">3CtNK2uhQMSleVUHBzYAGM</parameter>
+                        <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                        <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                        <parameter name="taskField" source="nested">
+                           <operation source="field" to="mt-stg-ebs-pc-addon-sync-1">temp.pc_addon</operation>
+                        </parameter>
+                     </serviceInput>
+                     <serviceOutput>
+                        <operation source="field" to="temp.pc_addon/output/Object_Name">Object Name</operation>
+                        <operation source="field" to="temp.pc_addon/output/Run_Id">Run Id</operation>
+                        <operation source="field" to="temp.pc_addon/output/Log_Id">Log Id</operation>
+                        <operation source="field" to="temp.pc_addon/output/Task_Id">Task Id</operation>
+                        <operation source="field" to="temp.pc_addon/output/Task_Status">Task Status</operation>
+                        <operation source="field" to="temp.pc_addon/output/Success_Source_Rows">Success Source Rows</operation>
+                        <operation source="field" to="temp.pc_addon/output/Failed_Source_Rows">Failed Source Rows</operation>
+                        <operation source="field" to="temp.pc_addon/output/Success_Target_Rows">Success Target Rows</operation>
+                        <operation source="field" to="temp.pc_addon/output/Failed_Target_Rows">Failed Target Rows</operation>
+                        <operation source="field" to="temp.pc_addon/output/Start_Time">Start Time</operation>
+                        <operation source="field" to="temp.pc_addon/output/End_Time">End Time</operation>
+                        <operation source="field" to="temp.pc_addon/output/Error_Message">Error Message</operation>
+                        <operation source="field" to="temp.pc_addon/output/TotalTransErrors">Total Transformation Errors</operation>
+                        <operation source="field" to="temp.pc_addon/output/FirstErrorCode">First Error Code</operation>
+                     </serviceOutput>
+                  </service>
+                  <link id="ldvrr9s9" targetId="ldvrr9sk"/>
+                  <events>
+                     <catch faultField="temp.pc_addon/fault"
+                            id="ldvr519a"
+                            interrupting="true"
+                            name="error">
+                        <suspend/>
+                     </catch>
+                     <catch faultField="temp.pc_addon/fault"
+                            id="ldvr519b"
+                            interrupting="true"
+                            name="warning"/>
+                  </events>
+               </eventContainer>
+               <eventContainer id="ldvrr9sk">
+                  <service id="ldvrr9s8">
+                     <title>pc_device</title>
+                     <serviceName>ICSExecuteDataTask</serviceName>
+                     <serviceGUID/>
+                     <serviceInput>
+                        <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                        <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                        <parameter name="Task Name" source="constant" updatable="true">mt_stg_ebs_pc_device_sync_1</parameter>
+                        <parameter name="GUID" source="constant" updatable="true">8pN9TPbLVwll6dgpNMPXIw</parameter>
+                        <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                        <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                        <parameter name="taskField" source="nested">
+                           <operation source="field" to="mt-stg-ebs-pc-device-sync-1">temp.pc_device</operation>
+                        </parameter>
+                     </serviceInput>
+                     <serviceOutput>
+                        <operation source="field" to="temp.pc_device/output/Object_Name">Object Name</operation>
+                        <operation source="field" to="temp.pc_device/output/Run_Id">Run Id</operation>
+                        <operation source="field" to="temp.pc_device/output/Log_Id">Log Id</operation>
+                        <operation source="field" to="temp.pc_device/output/Task_Id">Task Id</operation>
+                        <operation source="field" to="temp.pc_device/output/Task_Status">Task Status</operation>
+                        <operation source="field" to="temp.pc_device/output/Success_Source_Rows">Success Source Rows</operation>
+                        <operation source="field" to="temp.pc_device/output/Failed_Source_Rows">Failed Source Rows</operation>
+                        <operation source="field" to="temp.pc_device/output/Success_Target_Rows">Success Target Rows</operation>
+                        <operation source="field" to="temp.pc_device/output/Failed_Target_Rows">Failed Target Rows</operation>
+                        <operation source="field" to="temp.pc_device/output/Start_Time">Start Time</operation>
+                        <operation source="field" to="temp.pc_device/output/End_Time">End Time</operation>
+                        <operation source="field" to="temp.pc_device/output/Error_Message">Error Message</operation>
+                        <operation source="field" to="temp.pc_device/output/TotalTransErrors">Total Transformation Errors</operation>
+                        <operation source="field" to="temp.pc_device/output/FirstErrorCode">First Error Code</operation>
+                     </serviceOutput>
+                  </service>
+                  <link id="ldvrr9v5" targetId="ldvrr9vr"/>
+                  <events>
+                     <catch faultField="temp.pc_device/fault"
+                            id="ldvrr9si"
+                            interrupting="true"
+                            name="error">
+                        <suspend/>
+                     </catch>
+                     <catch faultField="temp.pc_device/fault"
+                            id="ldvrr9sj"
+                            interrupting="true"
+                            name="warning"/>
+                  </events>
+               </eventContainer>
+               <eventContainer id="ldvrr9vr">
+                  <service id="ldvrr9v4">
+                     <title>pc_device_addon</title>
+                     <serviceName>ICSExecuteDataTask</serviceName>
+                     <serviceGUID/>
+                     <serviceInput>
+                        <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                        <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                        <parameter name="Task Name" source="constant" updatable="true">mt_stg_ebs_pc_device_addon_sync_1</parameter>
+                        <parameter name="GUID" source="constant" updatable="true">8cd8cgjin1Ui2AfhhOOdQI</parameter>
+                        <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                        <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                        <parameter name="taskField" source="nested">
+                           <operation source="field" to="mt-stg-ebs-pc-device-addon-sync-1">temp.pc_device_addon</operation>
+                        </parameter>
+                     </serviceInput>
+                     <serviceOutput>
+                        <operation source="field" to="temp.pc_device_addon/output/Object_Name">Object Name</operation>
+                        <operation source="field" to="temp.pc_device_addon/output/Run_Id">Run Id</operation>
+                        <operation source="field" to="temp.pc_device_addon/output/Log_Id">Log Id</operation>
+                        <operation source="field" to="temp.pc_device_addon/output/Task_Id">Task Id</operation>
+                        <operation source="field" to="temp.pc_device_addon/output/Task_Status">Task Status</operation>
+                        <operation source="field" to="temp.pc_device_addon/output/Success_Source_Rows">Success Source Rows</operation>
+                        <operation source="field" to="temp.pc_device_addon/output/Failed_Source_Rows">Failed Source Rows</operation>
+                        <operation source="field" to="temp.pc_device_addon/output/Success_Target_Rows">Success Target Rows</operation>
+                        <operation source="field" to="temp.pc_device_addon/output/Failed_Target_Rows">Failed Target Rows</operation>
+                        <operation source="field" to="temp.pc_device_addon/output/Start_Time">Start Time</operation>
+                        <operation source="field" to="temp.pc_device_addon/output/End_Time">End Time</operation>
+                        <operation source="field" to="temp.pc_device_addon/output/Error_Message">Error Message</operation>
+                        <operation source="field" to="temp.pc_device_addon/output/TotalTransErrors">Total Transformation Errors</operation>
+                        <operation source="field" to="temp.pc_device_addon/output/FirstErrorCode">First Error Code</operation>
+                     </serviceOutput>
+                  </service>
+                  <link id="ldvrr9wt" targetId="ldvrr9xf"/>
+                  <events>
+                     <catch faultField="temp.pc_device_addon/fault"
+                            id="ldvrr9vp"
+                            interrupting="true"
+                            name="error">
+                        <suspend/>
+                     </catch>
+                     <catch faultField="temp.pc_device_addon/fault"
+                            id="ldvrr9vq"
+                            interrupting="true"
+                            name="warning"/>
+                  </events>
+               </eventContainer>
+               <eventContainer id="ldvrr9xf">
+                  <service id="ldvrr9ws">
+                     <title>pc_sharing</title>
+                     <serviceName>ICSExecuteDataTask</serviceName>
+                     <serviceGUID/>
+                     <serviceInput>
+                        <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                        <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                        <parameter name="Task Name" source="constant" updatable="true">mt_stg_ebs_pc_sharing_sync_1</parameter>
+                        <parameter name="GUID" source="constant" updatable="true">5D2Uhu7mNuLh7QBkO27Aos</parameter>
+                        <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                        <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                        <parameter name="taskField" source="nested">
+                           <operation source="field" to="mt-stg-ebs-pc-sharing-sync-1">temp.pc_sharing</operation>
+                        </parameter>
+                     </serviceInput>
+                     <serviceOutput>
+                        <operation source="field" to="temp.pc_sharing/output/Object_Name">Object Name</operation>
+                        <operation source="field" to="temp.pc_sharing/output/Run_Id">Run Id</operation>
+                        <operation source="field" to="temp.pc_sharing/output/Log_Id">Log Id</operation>
+                        <operation source="field" to="temp.pc_sharing/output/Task_Id">Task Id</operation>
+                        <operation source="field" to="temp.pc_sharing/output/Task_Status">Task Status</operation>
+                        <operation source="field" to="temp.pc_sharing/output/Success_Source_Rows">Success Source Rows</operation>
+                        <operation source="field" to="temp.pc_sharing/output/Failed_Source_Rows">Failed Source Rows</operation>
+                        <operation source="field" to="temp.pc_sharing/output/Success_Target_Rows">Success Target Rows</operation>
+                        <operation source="field" to="temp.pc_sharing/output/Failed_Target_Rows">Failed Target Rows</operation>
+                        <operation source="field" to="temp.pc_sharing/output/Start_Time">Start Time</operation>
+                        <operation source="field" to="temp.pc_sharing/output/End_Time">End Time</operation>
+                        <operation source="field" to="temp.pc_sharing/output/Error_Message">Error Message</operation>
+                        <operation source="field" to="temp.pc_sharing/output/TotalTransErrors">Total Transformation Errors</operation>
+                        <operation source="field" to="temp.pc_sharing/output/FirstErrorCode">First Error Code</operation>
+                     </serviceOutput>
+                  </service>
+                  <link id="ldvrr9wu" targetId="c"/>
+                  <events>
+                     <catch faultField="temp.pc_sharing/fault"
+                            id="ldvrr9xd"
+                            interrupting="true"
+                            name="error">
+                        <suspend/>
+                     </catch>
+                     <catch faultField="temp.pc_sharing/fault"
+                            id="ldvrr9xe"
+                            interrupting="true"
+                            name="warning"/>
+                  </events>
+               </eventContainer>
+               <end id="c"/>
+            </flow>
+            <dependencies>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-stg-ebs-pc-main-sync-1"
+                              isByCopy="true"
+                              name="mt-stg-ebs-pc-main-sync-1">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-stg-ebs-pc-addon-sync-1"
+                              isByCopy="true"
+                              name="mt-stg-ebs-pc-addon-sync-1">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-stg-ebs-pc-device-sync-1"
+                              isByCopy="true"
+                              name="mt-stg-ebs-pc-device-sync-1">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-stg-ebs-pc-device-addon-sync-1"
+                              isByCopy="true"
+                              name="mt-stg-ebs-pc-device-addon-sync-1">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mt-stg-ebs-pc-sharing-sync-1"
+                              isByCopy="true"
+                              name="mt-stg-ebs-pc-sharing-sync-1">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+            </dependencies>
+         </taskflow>
+      </types1:Entry>
+      <types1:GUID>czOU69QtucfbUAR6DfRrE5</types1:GUID>
+      <types1:DisplayName>tf_stg_ebs_product_configuration_sync_1</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2023-08-24T02:44:47.795Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
