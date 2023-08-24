@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "6Kfe6dkeve5ktKZOA7ptW6",
+    "name" : "Sync_to_Target",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Synchronization task to target data load location",
+        "contentType" : null,
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2023-08-24T02:43:10.524Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "gFD8lMZeUOodljJAgbVPuj",
+    "name" : "sh_cust_rule_specification",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "gFD8lMZeUOodljJAgbVPuj"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2023-08-24T02:43:10.604Z",
+  "objectRefs" : [ ]
+}

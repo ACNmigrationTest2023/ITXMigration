@@ -1,0 +1,132 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>VltnKLLsciQlBWl-gt-1545315-2023-08-05T01:37:25.769Z::tf.xml</types1:EntryId>
+      <types1:Name>taskflow_sh_file_stg_data_load-2</types1:Name>
+      <types1:MimeType>application/xml+taskflow</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>mark.leonard.f.gado@accenture.com</types1:CreatedBy>
+      <types1:CreationDate>2023-08-05T01:37:26Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <taskflow xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                   xmlns:tfm="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"
+                   xmlns:list="urn:activevos:spi:list:functions"
+                   displayName="taskflow_sh_file_stg_data_load"
+                   name="taskflow_sh_file_stg_data_load-2"
+                   overrideAPIName="false">
+            <parameterSet xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"/>
+            <appliesTo/>
+            <description/>
+            <tags/>
+            <generator>Informatica Process Designer 11</generator>
+            <tempFields>
+               <field description="" name="taskflow_sf_ebs_sap_file_stg" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:InternalInfaSubTaskflowField</option>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">false</option>
+                  </options>
+               </field>
+               <field description="" name="tf_ebs_file_stage_data_load" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:InternalInfaSubTaskflowField</option>
+                  </options>
+               </field>
+               <field description=""
+                      name="taskflow_execute_validation_rule"
+                      type="reference">
+                  <options>
+                     <option name="referenceTo">$po:InternalInfaSubTaskflowField</option>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">false</option>
+                  </options>
+               </field>
+               <field description=""
+                      name="taskflow_execute_sh_mig_sftp_Srcfiles"
+                      type="reference">
+                  <options>
+                     <option name="referenceTo">$po:InternalInfaSubTaskflowField</option>
+                  </options>
+               </field>
+            </tempFields>
+            <notes/>
+            <deployment skipIfRunning="false" suspendOnFault="false" tracingLevel="verbose">
+               <rest/>
+            </deployment>
+            <flow id="a">
+               <start id="b">
+                  <link id="ldu9snyl" targetId="ldu9snyk"/>
+               </start>
+               <subflow id="ldu9snyk">
+                  <title>taskflow_execute_sh_mig_sftp_Srcfiles</title>
+                  <subflowGUID>1gh69AQdOsngFArNKYn06n</subflowGUID>
+                  <subflowPath>taskflow_execute_sh_mig_sftp_Srcfiles-2</subflowPath>
+                  <runForEach>false</runForEach>
+                  <input/>
+                  <outputDef/>
+                  <link id="ldu9snym" targetId="lctihqvk"/>
+               </subflow>
+               <container id="lctihqvk" type="parallel">
+                  <title>Parallel Paths 1</title>
+                  <flow id="lctihqvo">
+                     <subflow id="lctihqvx">
+                        <title>taskflow_sf_ebs_sap_file_stg</title>
+                        <subflowGUID>iw7y4nYgjuUjkE28f2r7S1</subflowGUID>
+                        <subflowPath>taskflow_sf_ebs_sap_file_stg-2</subflowPath>
+                        <runForEach>false</runForEach>
+                        <input/>
+                        <outputDef/>
+                        <link id="ldu5m5gd" targetId="ldu5m5gc"/>
+                     </subflow>
+                     <subflow id="ldu5m5gc">
+                        <title>taskflow_execute_validation_rule</title>
+                        <subflowGUID>hDpOkbReOMAezI7woQb8kn</subflowGUID>
+                        <subflowPath>taskflow_execute_validation_rule-2</subflowPath>
+                        <runForEach>false</runForEach>
+                        <input/>
+                        <outputDef/>
+                     </subflow>
+                     <link id="lctihqvp" targetId="lctihqvk" type="containerLink"/>
+                  </flow>
+                  <flow id="lctihqvr">
+                     <subflow id="lctihqw4">
+                        <title>tf_ebs_file_stage_data_load</title>
+                        <subflowGUID>jPsojbYJAG2g3AMO5w7a0V</subflowGUID>
+                        <subflowPath>tf_ebs_file_stage_data_load</subflowPath>
+                        <runForEach>false</runForEach>
+                        <input/>
+                        <outputDef/>
+                     </subflow>
+                     <link id="lctihqvs" targetId="lctihqvk" type="containerLink"/>
+                  </flow>
+                  <link id="lctihqvn" targetId="lctihqvo" type="containerLink"/>
+                  <link id="lctihqvq" targetId="lctihqvr" type="containerLink"/>
+                  <link id="lctihqvm" targetId="c"/>
+               </container>
+               <end id="c"/>
+            </flow>
+            <dependencies>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="InternalInfaSubTaskflowField"
+                              isByCopy="true"
+                              name="InternalInfaSubTaskflowField">
+                  <description>This process object represents a subtaskflow type reference field.</description>
+                  <tags/>
+                  <detail/>
+               </processObject>
+            </dependencies>
+         </taskflow>
+      </types1:Entry>
+      <types1:GUID>171RhrIQe8Lbze3vSBMlIs</types1:GUID>
+      <types1:DisplayName>taskflow_sh_file_stg_data_load</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2023-08-24T02:43:09.058Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
