@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "2hASfg00Pr8f369vtEkmoF",
+    "name" : "Json_PC_OE_WB",
+    "type" : "HSCHEMA",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ36000000000028"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2023-09-12T01:43:55.796Z",
+  "objectRefs" : [ ]
+}

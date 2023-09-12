@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "5rcBMN2y0REerYlP6H7vUu",
+    "name" : "SF_records_deletion_jobs",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2023-09-12T01:43:55.646Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "4QGPT1QFicLdJbTrQxrUSO",
+    "name" : "hs_json_service_specification_mobile_sharingservice",
+    "type" : "HSCHEMA",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ3600000000002E"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2023-09-12T01:43:55.887Z",
+  "objectRefs" : [ ]
+}

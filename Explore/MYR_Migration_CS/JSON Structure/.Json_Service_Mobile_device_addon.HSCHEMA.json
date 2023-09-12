@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "30NAJaBveYHig6ZO6DGxw9",
+    "name" : "Json_Service_Mobile_device_addon",
+    "type" : "HSCHEMA",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ3600000000002H"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2023-09-12T01:43:55.639Z",
+  "objectRefs" : [ ]
+}
