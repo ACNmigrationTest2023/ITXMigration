@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "cRHhx1VI2IchXhrcJXV3aP",
-    "name" : "mt_rp_sf_recordtype",
+    "name" : "mt_rp_sf_recordtype_OLD",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -23,6 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
+  "updateTime" : "2023-09-12T09:53:21.003Z",
   "objectRefs" : [ {
     "id" : "cUgvxjP6z42j5o2aizvbUV",
     "name" : "l8ebgmigration800",
@@ -45,7 +46,7 @@
     "path" : "/SYS"
   }, {
     "id" : "0aa38HfbIjadqoKlbnU14y",
-    "name" : "SH_Data_Migration_POSTGRES",
+    "name" : "P2_Data_Migration_POSTGRES",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -65,7 +66,7 @@
     "path" : "/SYS"
   }, {
     "id" : "01Y7aDV3NWYlnEf7SVv7G7",
-    "name" : "m_rp_sf_recordtype",
+    "name" : "m_rp_sf_recordtype_OLD",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -88,7 +89,7 @@
     "path" : "/Explore/Sh_Migration_P1/Reversepull_objects"
   }, {
     "id" : "9BbRLvdO9WclfHAtYXCK2C",
-    "name" : "SH_Data_Migration_SFDC",
+    "name" : "MYR_Data_Migration_SFDC",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
