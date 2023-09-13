@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "93pEdG6O9kJfXzursvtocz",
+    "id" : "gWbopKDaAgJcy89YzdROOt",
     "name" : "mt_rp_sf_customer_access",
     "type" : "MTT",
     "metadata" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0102UZ0Z0000000000O3"
+        "repoHandle" : "0102UZ0Z00000000019E"
       },
       "contextAttributes" : [ {
         "name" : "id",
@@ -17,14 +17,15 @@
       } ],
       "additionalInfo" : {
         "description" : "",
-        "contentType" : "JSON",
+        "contentType" : null,
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
+  "updateTime" : "2023-09-13T08:34:20.701Z",
   "objectRefs" : [ {
-    "id" : "8MbzeC0uMeagCh4xQkVkoU",
+    "id" : "8IpnzGJAJcTc0JjcntrvAR",
     "name" : "m_rp_sf_customer_access",
     "type" : "DTEMPLATE",
     "metadata" : {
@@ -33,7 +34,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0102UZ170000000000IW"
+        "repoHandle" : "0102UZ1700000000014W"
       },
       "contextAttributes" : [ {
         "name" : "id",
@@ -41,7 +42,7 @@
       } ],
       "additionalInfo" : {
         "description" : "This mapping replicates customer access data from saleforce to stage area",
-        "contentType" : "JSON",
+        "contentType" : null,
         "documentState" : "VALID"
       }
     },
@@ -68,7 +69,7 @@
     "path" : "/SYS"
   }, {
     "id" : "0aa38HfbIjadqoKlbnU14y",
-    "name" : "SH_Data_Migration_POSTGRES",
+    "name" : "P2_Data_Migration_POSTGRES",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -88,7 +89,7 @@
     "path" : "/SYS"
   }, {
     "id" : "9BbRLvdO9WclfHAtYXCK2C",
-    "name" : "SH_Data_Migration_SFDC",
+    "name" : "MYR_Data_Migration_SFDC",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
