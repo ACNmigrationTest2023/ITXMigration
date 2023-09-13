@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "3OLTuS5VtZUbPVWXWhmdwg",
-    "name" : "m_rp_sf_case_OLD",
+    "name" : "m_rp_sf_case",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -23,7 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-09-13T07:36:56.091Z",
+  "updateTime" : "2023-09-13T07:43:14.677Z",
   "objectRefs" : [ {
     "id" : "0aa38HfbIjadqoKlbnU14y",
     "name" : "P2_Data_Migration_POSTGRES",
