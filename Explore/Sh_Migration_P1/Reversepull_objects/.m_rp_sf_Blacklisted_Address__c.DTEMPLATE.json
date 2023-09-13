@@ -1,70 +1,5 @@
 {
   "objectInfo" : {
-    "id" : "jH3FznguPe2bv14QARh2I6",
-    "name" : "mt_rp_sf_Blacklisted_Address__c",
-    "type" : "MTT",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0102UZ0Z00000000019A"
-      },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
-      "additionalInfo" : {
-        "description" : "",
-        "contentType" : null,
-        "documentState" : "VALID"
-      }
-    }
-  },
-  "dataFileExtension" : "zip",
-  "updateTime" : "2023-09-13T07:31:26.568Z",
-  "objectRefs" : [ {
-    "id" : "cUgvxjP6z42j5o2aizvbUV",
-    "name" : "l8ebgmigration800",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0102UZ25000000000002"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "0aa38HfbIjadqoKlbnU14y",
-    "name" : "P2_Data_Migration_POSTGRES",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0102UZ0B00000000000R"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
     "id" : "16aa2awKtEzfKgSnGfNGkN",
     "name" : "m_rp_sf_Blacklisted_Address__c",
     "type" : "DTEMPLATE",
@@ -85,8 +20,30 @@
         "contentType" : null,
         "documentState" : "VALID"
       }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2023-09-13T07:31:26.569Z",
+  "objectRefs" : [ {
+    "id" : "0aa38HfbIjadqoKlbnU14y",
+    "name" : "P2_Data_Migration_POSTGRES",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0B00000000000R"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
     },
-    "path" : "/Explore/Sh_Migration_P1/Reversepull_objects"
+    "path" : "/SYS"
   }, {
     "id" : "9BbRLvdO9WclfHAtYXCK2C",
     "name" : "MYR_Data_Migration_SFDC",
