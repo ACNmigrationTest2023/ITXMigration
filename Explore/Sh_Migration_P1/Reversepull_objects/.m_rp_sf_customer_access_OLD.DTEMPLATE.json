@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
-    "id" : "8IpnzGJAJcTc0JjcntrvAR",
-    "name" : "m_rp_sf_customer_access",
+    "id" : "8MbzeC0uMeagCh4xQkVkoU",
+    "name" : "m_rp_sf_customer_access_OLD",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0102UZ1700000000014W"
+        "repoHandle" : "0102UZ170000000000IW"
       },
       "contextAttributes" : [ {
         "name" : "id",
@@ -17,13 +17,13 @@
       } ],
       "additionalInfo" : {
         "description" : "This mapping replicates customer access data from saleforce to stage area",
-        "contentType" : null,
+        "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-09-13T08:34:20.701Z",
+  "updateTime" : "2023-09-13T08:35:58.896Z",
   "objectRefs" : [ {
     "id" : "0aa38HfbIjadqoKlbnU14y",
     "name" : "P2_Data_Migration_POSTGRES",
