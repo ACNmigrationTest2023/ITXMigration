@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "kbW6oIsqh2el130A6sEKYu",
-    "name" : "m_Json_Service_spec",
+    "name" : "m_Json_Service_spec_part_2",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -23,8 +23,28 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-09-12T01:43:55.711Z",
+  "updateTime" : "2023-09-19T14:03:02.745Z",
   "objectRefs" : [ {
+    "id" : "8G3iqN7py6abQFCeh2OEgW",
+    "name" : "json_service_spec_myr_part2",
+    "type" : "HSCHEMA",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ36000000000034"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MYR_Migration_CS/JSON"
+  }, {
     "id" : "4QRSN7FLoYhbpr47H7jUO9",
     "name" : "MYR_Data_Migration_POSTGRES",
     "type" : "Connection",
@@ -44,25 +64,5 @@
       }
     },
     "path" : "/SYS"
-  }, {
-    "id" : "0xeUcnqbQVfcBH0yOePzUT",
-    "name" : "json_service_spec_myr",
-    "type" : "HSCHEMA",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0102UZ3600000000002W"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : "",
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/Explore/MYR_Migration_CS/JSON"
   } ]
 }
