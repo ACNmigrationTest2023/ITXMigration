@@ -17,13 +17,13 @@
       } ],
       "additionalInfo" : {
         "description" : "",
-        "contentType" : null,
+        "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-09-19T14:06:29.368Z",
+  "updateTime" : "2023-09-22T04:40:50.718Z",
   "objectRefs" : [ {
     "id" : "4QRSN7FLoYhbpr47H7jUO9",
     "name" : "MYR_Data_Migration_POSTGRES",
@@ -44,25 +44,5 @@
       }
     },
     "path" : "/SYS"
-  }, {
-    "id" : "0xeUcnqbQVfcBH0yOePzUT",
-    "name" : "json_service_spec_myr_bkp_sep19",
-    "type" : "HSCHEMA",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0102UZ3600000000002W"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : "",
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/Explore/MYR_Migration_CS/JSON"
   } ]
 }
