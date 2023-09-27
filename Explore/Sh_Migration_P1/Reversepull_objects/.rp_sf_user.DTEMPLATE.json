@@ -17,16 +17,16 @@
       } ],
       "additionalInfo" : {
         "description" : "This mapping will do reverse pull from salesforce to ods staging area",
-        "contentType" : null,
+        "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-09-13T05:38:18.508Z",
+  "updateTime" : "2023-09-27T09:28:39.735Z",
   "objectRefs" : [ {
-    "id" : "4QRSN7FLoYhbpr47H7jUO9",
-    "name" : "MYR_Data_Migration_POSTGRES",
+    "id" : "0aa38HfbIjadqoKlbnU14y",
+    "name" : "P2_Data_Migration_POSTGRES",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -34,7 +34,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0102UZ0B00000000000V"
+        "repoHandle" : "0102UZ0B00000000000R"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -45,8 +45,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "9BbRLvdO9WclfHAtYXCK2C",
-    "name" : "MYR_Data_Migration_SFDC",
+    "id" : "2pzkdnOGuGpiqnKtNRkpw3",
+    "name" : "P2_Data_Migration_SFDC",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -54,7 +54,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0102UZ0B00000000000S"
+        "repoHandle" : "0102UZ0B00000000000X"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
