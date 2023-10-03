@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "4bOPePqYVWQfffxeWnymCU",
+    "name" : "json_solution_myr",
+    "type" : "HSCHEMA",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ3600000000003F"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2023-10-03T10:19:57.572Z",
+  "objectRefs" : [ ]
+}
