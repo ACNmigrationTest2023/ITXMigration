@@ -23,7 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-09-28T13:52:41.259Z",
+  "updateTime" : "2023-10-03T10:15:53.816Z",
   "objectRefs" : [ {
     "id" : "4QRSN7FLoYhbpr47H7jUO9",
     "name" : "MYR_Data_Migration_POSTGRES",
@@ -45,8 +45,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "4L020rNwGZgeVN6iMJgn2o",
-    "name" : "json_solution_myr",
+    "id" : "4bOPePqYVWQfffxeWnymCU",
+    "name" : "json_solution_myr_1G+1G_new",
     "type" : "HSCHEMA",
     "metadata" : {
       "modelVersion" : {
@@ -54,7 +54,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0102UZ3600000000002U"
+        "repoHandle" : "0102UZ3600000000003F"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -63,6 +63,6 @@
         "documentState" : "VALID"
       }
     },
-    "path" : "/Explore/MYR_Migration_CS/JSON"
+    "path" : "/Explore/MYR_Migration_CS/JSON Structure"
   } ]
 }
