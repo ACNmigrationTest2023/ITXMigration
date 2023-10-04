@@ -17,15 +17,16 @@
       } ],
       "additionalInfo" : {
         "description" : "",
-        "contentType" : null,
+        "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
+  "updateTime" : "2023-10-04T06:36:09.921Z",
   "objectRefs" : [ {
-    "id" : "4oKksIQNwmndUPmrVHgqS5",
-    "name" : "Flatfile",
+    "id" : "0aa38HfbIjadqoKlbnU14y",
+    "name" : "P2_Data_Migration_POSTGRES",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -33,7 +34,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0102UZ0B00000000000A"
+        "repoHandle" : "0102UZ0B00000000000R"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -44,8 +45,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "irZpk2lcq2Lh5v2PiTa4Q2",
-    "name" : "ebs_source_stage",
+    "id" : "5cVavMJoq6viVKggQReXmA",
+    "name" : "P2_Data_Migration_Extraction_EBS",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -53,7 +54,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0102UZ0B000000000003"
+        "repoHandle" : "0102UZ0B00000000000U"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
