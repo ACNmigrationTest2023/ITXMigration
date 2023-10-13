@@ -23,7 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-09-29T11:51:54.634Z",
+  "updateTime" : "2023-10-13T12:13:29.453Z",
   "objectRefs" : [ {
     "id" : "0aa38HfbIjadqoKlbnU14y",
     "name" : "P2_Data_Migration_POSTGRES",
@@ -55,26 +55,6 @@
       },
       "repoInfo" : {
         "repoHandle" : "0102UZ0B00000000000X"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "9BbRLvdO9WclfHAtYXCK2C",
-    "name" : "MYR_Data_Migration_SFDC",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0102UZ0B00000000000S"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
