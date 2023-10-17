@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "kFT7hqZkL0SjdDHwdKSMOi",
-    "name" : "mt_merge_sf_service",
+    "name" : "mt_merge_sf_service_OLD",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -23,6 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
+  "updateTime" : "2023-10-17T02:47:26.292Z",
   "objectRefs" : [ {
     "id" : "cUgvxjP6z42j5o2aizvbUV",
     "name" : "l8ebgmigration800",
@@ -45,7 +46,7 @@
     "path" : "/SYS"
   }, {
     "id" : "0aa38HfbIjadqoKlbnU14y",
-    "name" : "SH_Data_Migration_POSTGRES",
+    "name" : "P2_Data_Migration_POSTGRES",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
