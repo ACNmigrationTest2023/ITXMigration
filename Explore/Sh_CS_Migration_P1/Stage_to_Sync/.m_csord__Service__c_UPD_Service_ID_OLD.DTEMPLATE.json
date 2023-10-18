@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "4tdHEPstFmslCLpA4Ddoqj",
-    "name" : "m_csord__Service__c_UPD_Service_ID",
+    "name" : "m_csord__Service__c_UPD_Service_ID_OLD",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -23,9 +23,10 @@
     }
   },
   "dataFileExtension" : "zip",
+  "updateTime" : "2023-10-18T02:54:10.425Z",
   "objectRefs" : [ {
     "id" : "0aa38HfbIjadqoKlbnU14y",
-    "name" : "SH_Data_Migration_POSTGRES",
+    "name" : "P2_Data_Migration_POSTGRES",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
