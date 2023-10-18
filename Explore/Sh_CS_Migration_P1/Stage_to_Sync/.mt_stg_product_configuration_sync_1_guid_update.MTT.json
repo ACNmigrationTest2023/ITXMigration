@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "hdKUzGywEmAcSmehVKQ2S4",
-    "name" : "mt_stg_ebs_product_configuration_sync_1_guid_update",
+    "name" : "mt_stg_product_configuration_sync_1_guid_update",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -23,6 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
+  "updateTime" : "2023-10-18T12:15:51.830Z",
   "objectRefs" : [ {
     "id" : "cUgvxjP6z42j5o2aizvbUV",
     "name" : "l8ebgmigration800",
@@ -45,7 +46,7 @@
     "path" : "/SYS"
   }, {
     "id" : "0aa38HfbIjadqoKlbnU14y",
-    "name" : "SH_Data_Migration_POSTGRES",
+    "name" : "P2_Data_Migration_POSTGRES",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -65,7 +66,7 @@
     "path" : "/SYS"
   }, {
     "id" : "7OYp4JJW6ipiow4Ujov3Ck",
-    "name" : "m_stg_ebs_product_configuration_sync_1_guid_update",
+    "name" : "m_stg_product_configuration_sync_1_guid_update",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -75,10 +76,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ170000000000D0"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
