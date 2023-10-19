@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "0wAOUpaH0qQjpqyY9z83KA",
-    "name" : "mt_tgt_sf_json_pc",
+    "name" : "mt_tgt_sf_json_pc_OLD",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -23,6 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
+  "updateTime" : "2023-10-19T08:16:14.285Z",
   "objectRefs" : [ {
     "id" : "cUgvxjP6z42j5o2aizvbUV",
     "name" : "l8ebgmigration800",
@@ -55,10 +56,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ170000000000E4"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -68,7 +66,7 @@
     "path" : "/Explore/Sh_CS_Migration_P1/JSON"
   }, {
     "id" : "0aa38HfbIjadqoKlbnU14y",
-    "name" : "SH_Data_Migration_POSTGRES",
+    "name" : "P2_Data_Migration_POSTGRES",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
