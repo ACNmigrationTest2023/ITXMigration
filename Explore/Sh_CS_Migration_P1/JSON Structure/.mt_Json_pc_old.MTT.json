@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "a8D0fS5VxTLbBKRtDvVMYK",
-    "name" : "mt_Json_pc",
+    "name" : "mt_Json_pc_old",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -23,6 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
+  "updateTime" : "2023-10-19T11:12:20.173Z",
   "objectRefs" : [ {
     "id" : "cUgvxjP6z42j5o2aizvbUV",
     "name" : "l8ebgmigration800",
@@ -45,7 +46,7 @@
     "path" : "/SYS"
   }, {
     "id" : "0aa38HfbIjadqoKlbnU14y",
-    "name" : "SH_Data_Migration_POSTGRES",
+    "name" : "P2_Data_Migration_POSTGRES",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -75,10 +76,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ3600000000001E"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : null,
@@ -98,10 +96,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ3600000000001F"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : null,
@@ -111,7 +106,7 @@
     "path" : "/Explore/Sh_CS_Migration_P1/JSON Structure"
   }, {
     "id" : "2DhoP2GXGkqfE7w7m9uFO2",
-    "name" : "m_Json_pc",
+    "name" : "m_Json_pc_old",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -121,10 +116,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ170000000000E5"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
