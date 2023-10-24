@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "9jxAiItryG1dU9zoWUWwyd",
-    "name" : "mt_stg_attribute_field_sync",
+    "name" : "mt_stg_attribute_field_sync_OLD",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -23,9 +23,10 @@
     }
   },
   "dataFileExtension" : "zip",
+  "updateTime" : "2023-10-24T14:22:45.523Z",
   "objectRefs" : [ {
     "id" : "cmXImXWEnS3fZicj4JzliD",
-    "name" : "m_stg_attribute_field_sync",
+    "name" : "m_stg_attribute_field_sync_OLD",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -35,10 +36,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ170000000000HF"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -68,7 +66,7 @@
     "path" : "/SYS"
   }, {
     "id" : "0aa38HfbIjadqoKlbnU14y",
-    "name" : "SH_Data_Migration_POSTGRES",
+    "name" : "P2_Data_Migration_POSTGRES",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
