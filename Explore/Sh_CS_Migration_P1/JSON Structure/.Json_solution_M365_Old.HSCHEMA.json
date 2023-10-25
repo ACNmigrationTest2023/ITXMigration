@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "8NUBFd6efiJgZwU2iOJ6CW",
-    "name" : "Json_solution_M365",
+    "name" : "Json_solution_M365_Old",
     "type" : "HSCHEMA",
     "metadata" : {
       "modelVersion" : {
@@ -23,5 +23,6 @@
     }
   },
   "dataFileExtension" : "zip",
+  "updateTime" : "2023-10-25T09:08:51.090Z",
   "objectRefs" : [ ]
 }
