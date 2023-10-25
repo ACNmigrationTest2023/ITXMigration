@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "5XS0kIpPysZlcsa9jtxbsG",
-    "name" : "m_tgt_sf_json_serv_spec",
+    "name" : "m_tgt_sf_json_serv_spec_OLD",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -23,9 +23,10 @@
     }
   },
   "dataFileExtension" : "zip",
+  "updateTime" : "2023-10-25T06:17:55.835Z",
   "objectRefs" : [ {
     "id" : "0aa38HfbIjadqoKlbnU14y",
-    "name" : "SH_Data_Migration_POSTGRES",
+    "name" : "P2_Data_Migration_POSTGRES",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
