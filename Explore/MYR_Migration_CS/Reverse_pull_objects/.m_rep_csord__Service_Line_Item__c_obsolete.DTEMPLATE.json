@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "aKFcWQEgFjbka5kbmvZFOa",
-    "name" : "m_rep_csord__Service_Line_Item__c",
+    "name" : "m_rep_csord__Service_Line_Item__c_obsolete",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -23,7 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-10-30T08:09:51.187Z",
+  "updateTime" : "2023-10-30T08:20:39.091Z",
   "objectRefs" : [ {
     "id" : "0aa38HfbIjadqoKlbnU14y",
     "name" : "P2_Data_Migration_POSTGRES",
