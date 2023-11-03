@@ -18,12 +18,12 @@
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
-        "documentState" : "INVALID"
+        "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-11-03T05:25:21.941Z",
+  "updateTime" : "2023-11-03T08:58:07.657Z",
   "objectRefs" : [ {
     "id" : "0aa38HfbIjadqoKlbnU14y",
     "name" : "P2_Data_Migration_POSTGRES",
@@ -45,8 +45,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "0LwWWU7xdsnhDAcWhngvsS",
-    "name" : "json_pc_oe_ell",
+    "id" : "1Nfv0rgQA8IfISKUFdtoMx",
+    "name" : "Json_Service_Spec_M365",
     "type" : "HSCHEMA",
     "metadata" : {
       "modelVersion" : {
@@ -54,12 +54,12 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0102UZ3600000000003L"
+        "repoHandle" : "0102UZ3600000000001B"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
-        "contentType" : "JSON",
+        "contentType" : null,
         "documentState" : "VALID"
       }
     },
