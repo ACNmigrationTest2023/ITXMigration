@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "jMeyoaEdTY6gXpX5wJMEKn",
-    "name" : "mt_SF_load_json_PC",
+    "name" : "mt_SF_load_json_PC_OLD",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -23,7 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-09-12T01:43:55.630Z",
+  "updateTime" : "2023-11-06T02:38:02.085Z",
   "objectRefs" : [ {
     "id" : "crkfG2mCTUdfCttFXTG8OF",
     "name" : "m_SF_load_json_PC",
@@ -36,10 +36,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ170000000000Z3"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
