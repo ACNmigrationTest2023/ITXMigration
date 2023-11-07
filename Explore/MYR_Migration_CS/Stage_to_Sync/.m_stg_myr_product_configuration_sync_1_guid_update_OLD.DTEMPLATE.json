@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "5kVzwZ9JC9liMKJM9jRKWy",
-    "name" : "m_stg_myr_product_configuration_sync_1_guid_update",
+    "name" : "m_stg_myr_product_configuration_sync_1_guid_update_OLD",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -23,7 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-11-01T15:05:26.385Z",
+  "updateTime" : "2023-11-07T03:42:03.635Z",
   "objectRefs" : [ {
     "id" : "4QRSN7FLoYhbpr47H7jUO9",
     "name" : "MYR_Data_Migration_POSTGRES",
