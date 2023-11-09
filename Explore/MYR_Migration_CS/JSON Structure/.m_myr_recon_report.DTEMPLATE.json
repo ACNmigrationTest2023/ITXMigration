@@ -18,12 +18,12 @@
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
-        "documentState" : "VALID"
+        "documentState" : "INVALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-09-12T01:43:55.640Z",
+  "updateTime" : "2023-11-09T14:25:55.254Z",
   "objectRefs" : [ {
     "id" : "4QRSN7FLoYhbpr47H7jUO9",
     "name" : "MYR_Data_Migration_POSTGRES",
