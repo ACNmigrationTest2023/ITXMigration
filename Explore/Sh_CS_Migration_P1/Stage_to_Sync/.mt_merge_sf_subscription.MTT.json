@@ -23,27 +23,8 @@
     }
   },
   "dataFileExtension" : "zip",
+  "updateTime" : "2023-11-13T07:09:14.713Z",
   "objectRefs" : [ {
-    "id" : "06DG2h2LZuBbqCzm1DGYmO",
-    "name" : "m_merge_sf_subscription",
-    "type" : "DTEMPLATE",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0102UZ170000000000OO"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : "",
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/Explore/Sh_CS_Migration_P1/Stage_to_Sync"
-  }, {
     "id" : "cUgvxjP6z42j5o2aizvbUV",
     "name" : "l8ebgmigration800",
     "type" : "AgentGroup",
@@ -65,7 +46,7 @@
     "path" : "/SYS"
   }, {
     "id" : "0aa38HfbIjadqoKlbnU14y",
-    "name" : "SH_Data_Migration_POSTGRES",
+    "name" : "P2_Data_Migration_POSTGRES",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -83,5 +64,25 @@
       }
     },
     "path" : "/SYS"
+  }, {
+    "id" : "2EkKOR8ZQsnhFQWdLsjjqh",
+    "name" : "m_merge_sf_subscription_latest",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ170000000001A7"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Sh_CS_Migration_P1/Stage_to_Sync"
   } ]
 }
