@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "2nOLzWOwEqwfDfyEG53SYQ",
-    "name" : "m_merge_sf_pc",
+    "name" : "m_merge_sf_pc_OLD1",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -23,9 +23,10 @@
     }
   },
   "dataFileExtension" : "zip",
+  "updateTime" : "2023-11-13T04:00:35.474Z",
   "objectRefs" : [ {
     "id" : "0aa38HfbIjadqoKlbnU14y",
-    "name" : "SH_Data_Migration_POSTGRES",
+    "name" : "P2_Data_Migration_POSTGRES",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
