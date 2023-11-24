@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "3F2IvaCDrEGeTSKiulZRee",
-    "name" : "mt_Json_Service_spec_M365",
+    "name" : "mt_Json_Service_spec_M365_Part1",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -23,6 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
+  "updateTime" : "2023-11-24T04:53:42.621Z",
   "objectRefs" : [ {
     "id" : "cUgvxjP6z42j5o2aizvbUV",
     "name" : "l8ebgmigration800",
@@ -45,7 +46,7 @@
     "path" : "/SYS"
   }, {
     "id" : "0aa38HfbIjadqoKlbnU14y",
-    "name" : "SH_Data_Migration_POSTGRES",
+    "name" : "P2_Data_Migration_POSTGRES",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -75,36 +76,10 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ170000000000DT"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/Explore/Sh_CS_Migration_P1/JSON Structure"
-  }, {
-    "id" : "1Nfv0rgQA8IfISKUFdtoMx",
-    "name" : "Json_Service_Spec_M365",
-    "type" : "HSCHEMA",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0102UZ3600000000001B"
-      },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
-      "additionalInfo" : {
-        "description" : "",
-        "contentType" : null,
         "documentState" : "VALID"
       }
     },
