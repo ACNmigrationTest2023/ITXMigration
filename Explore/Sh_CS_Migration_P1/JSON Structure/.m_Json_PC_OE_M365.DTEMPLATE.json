@@ -23,28 +23,8 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-11-29T03:44:24.729Z",
+  "updateTime" : "2023-12-01T05:31:09.051Z",
   "objectRefs" : [ {
-    "id" : "5mdcIeNwE2GjNnoGEFk0QV",
-    "name" : "Json_PC_OE_M365",
-    "type" : "HSCHEMA",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0102UZ3600000000001I"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : "",
-        "contentType" : null,
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/Explore/Sh_CS_Migration_P1/JSON Structure"
-  }, {
     "id" : "0aa38HfbIjadqoKlbnU14y",
     "name" : "P2_Data_Migration_POSTGRES",
     "type" : "Connection",
@@ -64,5 +44,25 @@
       }
     },
     "path" : "/SYS"
+  }, {
+    "id" : "eE0wqgniwEGfi77iawURk2",
+    "name" : "Json_PC_OE_M365",
+    "type" : "HSCHEMA",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ3600000000004A"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Sh_CS_Migration_P1/JSON Structure"
   } ]
 }
