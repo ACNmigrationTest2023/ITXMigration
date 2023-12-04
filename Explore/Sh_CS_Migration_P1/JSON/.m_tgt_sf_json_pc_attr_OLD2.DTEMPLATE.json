@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "7sEvkQ4sJXhel3pzFYbXgB",
-    "name" : "m_tgt_sf_json_pc_attr",
+    "name" : "m_tgt_sf_json_pc_attr_OLD2",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -23,7 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-12-04T06:54:24.469Z",
+  "updateTime" : "2023-12-04T12:28:39.440Z",
   "objectRefs" : [ {
     "id" : "0aa38HfbIjadqoKlbnU14y",
     "name" : "P2_Data_Migration_POSTGRES",
