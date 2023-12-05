@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "1HirXaYsTTjeAO4WqRL4c7",
-    "name" : "m_Json_Solution_MAIN_M365",
+    "name" : "m_Json_Solution_MAIN_M365_old",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -23,7 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-11-23T08:58:48.937Z",
+  "updateTime" : "2023-12-05T13:32:19.938Z",
   "objectRefs" : [ {
     "id" : "0aa38HfbIjadqoKlbnU14y",
     "name" : "P2_Data_Migration_POSTGRES",
@@ -45,8 +45,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "hP9JZtfgAwUkj2yjipUPkI",
-    "name" : "json_solution_main_m365",
+    "id" : "1cIgU26N8DVgNSKHGBGkcM",
+    "name" : "json_solution_main_m365_new",
     "type" : "HSCHEMA",
     "metadata" : {
       "modelVersion" : {
@@ -54,7 +54,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0102UZ3600000000003R"
+        "repoHandle" : "0102UZ3600000000004F"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
