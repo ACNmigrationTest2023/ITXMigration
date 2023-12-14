@@ -23,7 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-11-24T09:53:53.673Z",
+  "updateTime" : "2023-12-14T12:11:45.832Z",
   "objectRefs" : [ {
     "id" : "0aa38HfbIjadqoKlbnU14y",
     "name" : "P2_Data_Migration_POSTGRES",
@@ -45,8 +45,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "2iTLU84eledbm9WDehQSkr",
-    "name" : "Json_service_spec_m365_Microsoft_License",
+    "id" : "5HGAmkq1JXGetp7biB1skt",
+    "name" : "M365_Schema_File_Part1",
     "type" : "HSCHEMA",
     "metadata" : {
       "modelVersion" : {
@@ -54,7 +54,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0102UZ36000000000048"
+        "repoHandle" : "0102UZ3600000000004I"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -63,6 +63,6 @@
         "documentState" : "VALID"
       }
     },
-    "path" : "/Explore/Sh_CS_Migration_P1/JSON Structure"
+    "path" : "/Explore/Sh_Migration_P1/Source_to_Stage"
   } ]
 }
