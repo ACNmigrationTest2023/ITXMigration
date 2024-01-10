@@ -23,6 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
+  "updateTime" : "2024-01-10T07:40:10.363Z",
   "objectRefs" : [ {
     "id" : "cUgvxjP6z42j5o2aizvbUV",
     "name" : "l8ebgmigration800",
@@ -45,7 +46,7 @@
     "path" : "/SYS"
   }, {
     "id" : "0aa38HfbIjadqoKlbnU14y",
-    "name" : "SH_Data_Migration_POSTGRES",
+    "name" : "P2_Data_Migration_POSTGRES",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -65,7 +66,7 @@
     "path" : "/SYS"
   }, {
     "id" : "5cVavMJoq6viVKggQReXmA",
-    "name" : "SH_Data_Migration_Extraction",
+    "name" : "P2_Data_Migration_Extraction_EBS",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -95,10 +96,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ170000000000LY"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
