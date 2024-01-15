@@ -17,13 +17,13 @@
       } ],
       "additionalInfo" : {
         "description" : "",
-        "contentType" : null,
+        "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-01-10T08:02:14.286Z",
+  "updateTime" : "2024-01-15T04:07:58.302Z",
   "objectRefs" : [ {
     "id" : "4oKksIQNwmndUPmrVHgqS5",
     "name" : "Flatfile",
@@ -45,8 +45,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "gbEqHgig3UYgrJMzU4lVau",
-    "name" : "cs_ebs_source_stage",
+    "id" : "0aa38HfbIjadqoKlbnU14y",
+    "name" : "P2_Data_Migration_POSTGRES",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -54,7 +54,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0102UZ0B00000000000L"
+        "repoHandle" : "0102UZ0B00000000000R"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
