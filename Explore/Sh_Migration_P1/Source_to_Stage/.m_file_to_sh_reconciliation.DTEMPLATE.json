@@ -23,7 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-09-26T06:34:34.268Z",
+  "updateTime" : "2024-01-17T02:02:13.973Z",
   "objectRefs" : [ {
     "id" : "0aa38HfbIjadqoKlbnU14y",
     "name" : "P2_Data_Migration_POSTGRES",
@@ -45,8 +45,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "5cVavMJoq6viVKggQReXmA",
-    "name" : "P2_Data_Migration_Extraction_EBS",
+    "id" : "6p4uTRdgj22k8PCX82UZsY",
+    "name" : "P2_Data_Migration_Extraction_Reference",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -54,7 +54,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0102UZ0B00000000000U"
+        "repoHandle" : "0102UZ0B000000000010"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
