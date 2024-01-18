@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "1oKpRWYFqxgb5UFuL8TH6h",
+    "name" : "m_tgt_sf_json_attrib_sp_Commercial_Mobile_Service",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ170000000001DP"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-01-18T09:06:08.336Z",
+  "objectRefs" : [ {
+    "id" : "0aa38HfbIjadqoKlbnU14y",
+    "name" : "P2_Data_Migration_POSTGRES",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0B00000000000R"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
