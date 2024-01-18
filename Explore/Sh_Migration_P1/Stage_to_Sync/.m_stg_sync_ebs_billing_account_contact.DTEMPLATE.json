@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "itCoIEKgLWyhBWyMQbQOE2",
-    "name" : "m_stg_sync_ebs_sap_billing_account_contact",
+    "name" : "m_stg_sync_ebs_billing_account_contact",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -23,7 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-10-09T11:36:44.858Z",
+  "updateTime" : "2024-01-18T11:38:52.416Z",
   "objectRefs" : [ {
     "id" : "0aa38HfbIjadqoKlbnU14y",
     "name" : "P2_Data_Migration_POSTGRES",
