@@ -1,0 +1,68 @@
+{
+  "objectInfo" : {
+    "id" : "7bgnJpIADGEh3SIaGFDSOM",
+    "name" : "m_Json_PC_OE_Mobile_Sharing",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ170000000001EE"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-01-31T09:13:37.487Z",
+  "objectRefs" : [ {
+    "id" : "0aa38HfbIjadqoKlbnU14y",
+    "name" : "P2_Data_Migration_POSTGRES",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ0B00000000000R"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "0aYJzNBUd2JijoaYx0V4gh",
+    "name" : "json_pc_oe_Sharing_Service",
+    "type" : "HSCHEMA",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102UZ36000000000055"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Sh_CS_Migration_P1/JSON Structure"
+  } ]
+}
