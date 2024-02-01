@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "6eFZzjBhQeChKWo53HzFIJ",
-    "name" : "mt_tgt_sf_json_attrib_sp_Non_Commercial_Mobile_Service",
+    "name" : "m_tgt_sf_json_attrib_sp_Non_Commercial_Mobile_Service",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -18,12 +18,12 @@
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
-        "documentState" : "VALID"
+        "documentState" : "INVALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-01-19T08:29:49.571Z",
+  "updateTime" : "2024-02-01T06:26:28.474Z",
   "objectRefs" : [ {
     "id" : "0aa38HfbIjadqoKlbnU14y",
     "name" : "P2_Data_Migration_POSTGRES",
