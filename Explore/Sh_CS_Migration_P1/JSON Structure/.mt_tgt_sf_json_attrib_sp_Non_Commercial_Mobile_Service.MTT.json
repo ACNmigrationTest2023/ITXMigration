@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "5UXCRJllBQ5gNutGi4THYc",
-    "name" : "mt_tgt_sf_json_attrib_sp_Non_Commercial_Mobile_ServiceMappingTask1",
+    "name" : "mt_tgt_sf_json_attrib_sp_Non_Commercial_Mobile_Service",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -23,7 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-01-18T09:15:57.610Z",
+  "updateTime" : "2024-02-19T09:35:11.071Z",
   "objectRefs" : [ {
     "id" : "cUgvxjP6z42j5o2aizvbUV",
     "name" : "l8ebgmigration800",
@@ -66,7 +66,7 @@
     "path" : "/SYS"
   }, {
     "id" : "6eFZzjBhQeChKWo53HzFIJ",
-    "name" : "mt_tgt_sf_json_attrib_sp_Non_Commercial_Mobile_Service",
+    "name" : "m_tgt_sf_json_attrib_sp_Non_Commercial_Mobile_Service",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -76,10 +76,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ170000000001DQ"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
