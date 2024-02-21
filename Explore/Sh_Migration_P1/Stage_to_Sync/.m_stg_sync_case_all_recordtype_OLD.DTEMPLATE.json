@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
     "id" : "1ByUgCCZSmgb5RPnrVqSEX",
-    "name" : "m_stg_sync_case_all_recordtype",
+    "name" : "m_stg_sync_case_all_recordtype_OLD",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -23,7 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-10-09T08:15:14.479Z",
+  "updateTime" : "2024-02-21T12:12:46.676Z",
   "objectRefs" : [ {
     "id" : "0aa38HfbIjadqoKlbnU14y",
     "name" : "P2_Data_Migration_POSTGRES",
