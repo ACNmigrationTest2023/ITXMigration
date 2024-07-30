@@ -18,12 +18,12 @@
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
-        "documentState" : "INVALID"
+        "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-05-30T11:46:43.542Z",
+  "updateTime" : "2024-07-30T07:01:49.575Z",
   "objectRefs" : [ {
     "id" : "0aa38HfbIjadqoKlbnU14y",
     "name" : "P2_Data_Migration_POSTGRES",
