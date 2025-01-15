@@ -13,8 +13,10 @@
       <types1:CreatedBy>mark.leonard.f.gado@accenture.com</types1:CreatedBy>
       <types1:CreationDate>2023-08-05T01:39:07Z</types1:CreationDate>
       <types1:ModifiedBy/>
-      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
-      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>mark.leonard.f.gado@accenture.com</types1:PublishedBy>
+      <types1:PublicationDate>2025-01-15T13:28:29Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/tf.tf_ebs_file_stage_data_load-2/tf_ebs_file_stage_data_load-2.tf.xml</types1:PublishedContributionId>
       <types1:Entry>
          <taskflow xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
                    xmlns:tfm="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"
@@ -2792,5 +2794,5 @@
       <types1:GUID>3T08CMLEG2ljI11hfHYB6q</types1:GUID>
       <types1:DisplayName>tf_ebs_file_stage_data_load</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2023-08-24T02:44:47.862Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2025-01-15T13:28:46.95Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>

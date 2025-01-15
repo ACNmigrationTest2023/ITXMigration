@@ -20,7 +20,7 @@
     }
   },
   "dataFileExtension" : "xml",
-  "updateTime" : "2023-08-24T02:44:55.931Z",
+  "updateTime" : "2025-01-15T13:28:47.142Z",
   "objectRefs" : [ {
     "id" : "6fMSBnXVk8sfKvQ32Q32G7",
     "name" : "mt_file_stg_ebs_promotion_item",
@@ -701,5 +701,7 @@
       }
     },
     "path" : "/Explore/MYR_Migration_CS/Source_to_Stage"
-  } ]
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
