@@ -4,7 +4,7 @@
       <types1:EntryId>bdvGqUlLnzYLnzY-gt-4779453-2023-03-20T06:42:00.24Z::tf.xml</types1:EntryId>
       <types1:Name>tf_sfdc_reverse_pull_attribute-1</types1:Name>
       <types1:MimeType>application/xml+taskflow</types1:MimeType>
-      <types1:Description/>
+      <types1:Description>test</types1:Description>
       <types1:AppliesTo/>
       <types1:Tags/>
       <types1:VersionLabel>1.0</types1:VersionLabel>
@@ -12,10 +12,11 @@
       <types1:ProcessGroup/>
       <types1:CreatedBy>mark.leonard.f.gado@accenture.com</types1:CreatedBy>
       <types1:CreationDate>2023-03-20T06:42:00Z</types1:CreationDate>
-      <types1:ModifiedBy/>
+      <types1:ModifiedBy>arijit.g.chatterjee@accenture.com</types1:ModifiedBy>
+      <types1:ModificationDate>2025-01-15T14:03:22Z</types1:ModificationDate>
       <types1:PublicationStatus>published</types1:PublicationStatus>
-      <types1:PublishedBy>mark.leonard.f.gado@accenture.com</types1:PublishedBy>
-      <types1:PublicationDate>2023-03-23T03:23:12Z</types1:PublicationDate>
+      <types1:PublishedBy>arijit.g.chatterjee@accenture.com</types1:PublishedBy>
+      <types1:PublicationDate>2025-01-15T14:03:26Z</types1:PublicationDate>
       <types1:PublishedContributionId>project:/tf.tf_sfdc_reverse_pull_attribute-1/tf_sfdc_reverse_pull_attribute-1.tf.xml</types1:PublishedContributionId>
       <types1:Entry>
          <taskflow xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
@@ -26,7 +27,7 @@
                    overrideAPIName="false">
             <parameterSet xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"/>
             <appliesTo/>
-            <description/>
+            <description>test</description>
             <tags/>
             <generator>Informatica Process Designer 11</generator>
             <tempFields>
@@ -34,14 +35,14 @@
                   <options>
                      <option name="failOnNotRun">false</option>
                      <option name="failOnFault">false</option>
-                     <option name="referenceTo">$po:mt-rep-cscfga-Attribute--c</option>
+                     <option name="referenceTo">$po:mt-rep-cscfga-Attribute--c-4BWiXNHlvB9hykN2QpmoCh</option>
                   </options>
                </field>
                <field description="" name="Attribute Field" type="reference">
                   <options>
                      <option name="failOnNotRun">false</option>
                      <option name="failOnFault">false</option>
-                     <option name="referenceTo">$po:mt-rep-cscfga-Attribute-Field</option>
+                     <option name="referenceTo">$po:mt-rep-cscfga-Attribute-Field-7kMI1azosnok33B9BX5x6y</option>
                   </options>
                </field>
             </tempFields>
@@ -49,6 +50,10 @@
             <deployment skipIfRunning="false" suspendOnFault="false" tracingLevel="verbose">
                <rest/>
             </deployment>
+            <extData>
+               <nvpair name="treatEmptyStringAsNotNull">false</nvpair>
+               <nvpair name="treatEmptyObjectListAsArray">false</nvpair>
+            </extData>
             <flow id="a">
                <start id="b">
                   <link id="ld1h9jtd" targetId="ld1h9jto"/>
@@ -66,7 +71,7 @@
                         <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
                         <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
                         <parameter name="taskField" source="nested">
-                           <operation source="field" to="mt-rep-cscfga-Attribute--c">temp.Attribute</operation>
+                           <operation source="field" to="mt-rep-cscfga-Attribute--c-4BWiXNHlvB9hykN2QpmoCh">temp.Attribute</operation>
                         </parameter>
                      </serviceInput>
                      <serviceOutput>
@@ -113,7 +118,8 @@
                         <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
                         <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
                         <parameter name="taskField" source="nested">
-                           <operation source="field" to="mt-rep-cscfga-Attribute-Field">temp.Attribute Field</operation>
+                           <operation source="field"
+                                      to="mt-rep-cscfga-Attribute-Field-7kMI1azosnok33B9BX5x6y">temp.Attribute Field</operation>
                         </parameter>
                      </serviceInput>
                      <serviceOutput>
@@ -151,9 +157,9 @@
             </flow>
             <dependencies>
                <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
-                              displayName="mt-rep-cscfga-Attribute--c"
+                              displayName="mt-rep-cscfga-Attribute--c-4BWiXNHlvB9hykN2QpmoCh"
                               isByCopy="true"
-                              name="mt-rep-cscfga-Attribute--c">
+                              name="mt-rep-cscfga-Attribute--c-4BWiXNHlvB9hykN2QpmoCh">
                   <description/>
                   <tags/>
                   <detail>
@@ -172,12 +178,17 @@
                             nullable="true"
                             required="false"
                             type="reference"/>
+                     <field label="Max Wait (Seconds)"
+                            name="Max_Wait"
+                            nullable="true"
+                            required="false"
+                            type="int"/>
                   </detail>
                </processObject>
                <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
-                              displayName="mt-rep-cscfga-Attribute-Field"
+                              displayName="mt-rep-cscfga-Attribute-Field-7kMI1azosnok33B9BX5x6y"
                               isByCopy="true"
-                              name="mt-rep-cscfga-Attribute-Field">
+                              name="mt-rep-cscfga-Attribute-Field-7kMI1azosnok33B9BX5x6y">
                   <description/>
                   <tags/>
                   <detail>
@@ -196,6 +207,11 @@
                             nullable="true"
                             required="false"
                             type="reference"/>
+                     <field label="Max Wait (Seconds)"
+                            name="Max_Wait"
+                            nullable="true"
+                            required="false"
+                            type="int"/>
                   </detail>
                </processObject>
             </dependencies>
@@ -204,5 +220,5 @@
       <types1:GUID>0wmR9nXuIKMfIwXz7obaQb</types1:GUID>
       <types1:DisplayName>tf_sfdc_reverse_pull_attribute</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2025-01-15T13:38:53.091Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2025-01-15T14:03:43.283Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>

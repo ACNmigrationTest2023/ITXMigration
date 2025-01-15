@@ -13,14 +13,14 @@
       },
       "contextAttributes" : null,
       "additionalInfo" : {
-        "description" : "",
-        "contentType" : null,
+        "description" : "test",
+        "contentType" : "application/json; charset=utf-8",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "xml",
-  "updateTime" : "2025-01-15T13:38:53.193Z",
+  "updateTime" : "2025-01-15T14:03:43.651Z",
   "objectRefs" : [ {
     "id" : "7kMI1azosnok33B9BX5x6y",
     "name" : "mt_rep_cscfga_Attribute_Field",
