@@ -9,7 +9,7 @@
 3. Device 
 4. Device Addon 
 5. Sharing Service
-6. Sharing Service Addon</types1:Description>
+6.Sharing Service Addon</types1:Description>
       <types1:AppliesTo/>
       <types1:Tags/>
       <types1:VersionLabel>1.0</types1:VersionLabel>
@@ -17,9 +17,12 @@
       <types1:ProcessGroup/>
       <types1:CreatedBy>mark.leonard.f.gado@accenture.com</types1:CreatedBy>
       <types1:CreationDate>2023-03-20T06:44:08Z</types1:CreationDate>
-      <types1:ModifiedBy/>
-      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
-      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:ModifiedBy>arijit.g.chatterjee@accenture.com</types1:ModifiedBy>
+      <types1:ModificationDate>2025-01-15T14:02:30Z</types1:ModificationDate>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>arijit.g.chatterjee@accenture.com</types1:PublishedBy>
+      <types1:PublicationDate>2025-01-15T14:02:35Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/tf.tf_stg_ebs_product_configuration_sync_1-1/tf_stg_ebs_product_configuration_sync_1-1.tf.xml</types1:PublishedContributionId>
       <types1:Entry>
          <taskflow xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
                    xmlns:tfm="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"
@@ -34,39 +37,39 @@
 3. Device 
 4. Device Addon 
 5. Sharing Service
-6. Sharing Service Addon</description>
+6.Sharing Service Addon</description>
             <tags/>
             <generator>Informatica Process Designer 11</generator>
             <tempFields>
                <field description="" name="pc_main" type="reference">
                   <options>
-                     <option name="referenceTo">$po:mt-stg-ebs-pc-main-sync-1</option>
+                     <option name="referenceTo">$po:mt-stg-ebs-pc-main-sync-1-5SYbXFUrrKNfRZ4xY3VzI6</option>
                   </options>
                </field>
                <field description="" name="pc_addon" type="reference">
                   <options>
-                     <option name="referenceTo">$po:mt-stg-ebs-pc-addon-sync-1</option>
+                     <option name="referenceTo">$po:mt-stg-ebs-pc-addon-sync-1-8pTsaa56rCLj0ldPZWrHGU</option>
                   </options>
                </field>
                <field description="" name="pc_device" type="reference">
                   <options>
                      <option name="failOnNotRun">false</option>
                      <option name="failOnFault">false</option>
-                     <option name="referenceTo">$po:mt-stg-ebs-pc-device-sync-1</option>
+                     <option name="referenceTo">$po:mt-stg-ebs-pc-device-sync-1-4WyprGmTKiwgH9qVwVfNsm</option>
                   </options>
                </field>
                <field description="" name="pc_device_addon" type="reference">
                   <options>
                      <option name="failOnNotRun">false</option>
                      <option name="failOnFault">false</option>
-                     <option name="referenceTo">$po:mt-stg-ebs-pc-device-addon-sync-1</option>
+                     <option name="referenceTo">$po:mt-stg-ebs-pc-device-addon-sync-1-kD4242cpNiZhjghRdZMemU</option>
                   </options>
                </field>
                <field description="" name="pc_sharing" type="reference">
                   <options>
                      <option name="failOnNotRun">false</option>
                      <option name="failOnFault">false</option>
-                     <option name="referenceTo">$po:mt-stg-ebs-pc-sharing-sync-1</option>
+                     <option name="referenceTo">$po:mt-stg-ebs-pc-sharing-sync-1-1lrNkwN9WYyewDzTonIZ0u</option>
                   </options>
                </field>
             </tempFields>
@@ -74,6 +77,10 @@
             <deployment skipIfRunning="false" suspendOnFault="false" tracingLevel="verbose">
                <rest/>
             </deployment>
+            <extData>
+               <nvpair name="treatEmptyStringAsNotNull">false</nvpair>
+               <nvpair name="treatEmptyObjectListAsArray">false</nvpair>
+            </extData>
             <flow id="a">
                <start id="b">
                   <link id="j3wfjy2l" targetId="ldvr518a"/>
@@ -91,7 +98,7 @@
                         <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
                         <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
                         <parameter name="taskField" source="nested">
-                           <operation source="field" to="mt-stg-ebs-pc-main-sync-1">temp.pc_main</operation>
+                           <operation source="field" to="mt-stg-ebs-pc-main-sync-1-5SYbXFUrrKNfRZ4xY3VzI6">temp.pc_main</operation>
                         </parameter>
                      </serviceInput>
                      <serviceOutput>
@@ -138,7 +145,7 @@
                         <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
                         <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
                         <parameter name="taskField" source="nested">
-                           <operation source="field" to="mt-stg-ebs-pc-addon-sync-1">temp.pc_addon</operation>
+                           <operation source="field" to="mt-stg-ebs-pc-addon-sync-1-8pTsaa56rCLj0ldPZWrHGU">temp.pc_addon</operation>
                         </parameter>
                      </serviceInput>
                      <serviceOutput>
@@ -185,7 +192,7 @@
                         <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
                         <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
                         <parameter name="taskField" source="nested">
-                           <operation source="field" to="mt-stg-ebs-pc-device-sync-1">temp.pc_device</operation>
+                           <operation source="field" to="mt-stg-ebs-pc-device-sync-1-4WyprGmTKiwgH9qVwVfNsm">temp.pc_device</operation>
                         </parameter>
                      </serviceInput>
                      <serviceOutput>
@@ -232,7 +239,8 @@
                         <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
                         <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
                         <parameter name="taskField" source="nested">
-                           <operation source="field" to="mt-stg-ebs-pc-device-addon-sync-1">temp.pc_device_addon</operation>
+                           <operation source="field"
+                                      to="mt-stg-ebs-pc-device-addon-sync-1-kD4242cpNiZhjghRdZMemU">temp.pc_device_addon</operation>
                         </parameter>
                      </serviceInput>
                      <serviceOutput>
@@ -279,7 +287,7 @@
                         <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
                         <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
                         <parameter name="taskField" source="nested">
-                           <operation source="field" to="mt-stg-ebs-pc-sharing-sync-1">temp.pc_sharing</operation>
+                           <operation source="field" to="mt-stg-ebs-pc-sharing-sync-1-1lrNkwN9WYyewDzTonIZ0u">temp.pc_sharing</operation>
                         </parameter>
                      </serviceInput>
                      <serviceOutput>
@@ -317,9 +325,9 @@
             </flow>
             <dependencies>
                <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
-                              displayName="mt-stg-ebs-pc-main-sync-1"
+                              displayName="mt-stg-ebs-pc-main-sync-1-5SYbXFUrrKNfRZ4xY3VzI6"
                               isByCopy="true"
-                              name="mt-stg-ebs-pc-main-sync-1">
+                              name="mt-stg-ebs-pc-main-sync-1-5SYbXFUrrKNfRZ4xY3VzI6">
                   <description/>
                   <tags/>
                   <detail>
@@ -338,12 +346,17 @@
                             nullable="true"
                             required="false"
                             type="reference"/>
+                     <field label="Max Wait (Seconds)"
+                            name="Max_Wait"
+                            nullable="true"
+                            required="false"
+                            type="int"/>
                   </detail>
                </processObject>
                <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
-                              displayName="mt-stg-ebs-pc-addon-sync-1"
+                              displayName="mt-stg-ebs-pc-addon-sync-1-8pTsaa56rCLj0ldPZWrHGU"
                               isByCopy="true"
-                              name="mt-stg-ebs-pc-addon-sync-1">
+                              name="mt-stg-ebs-pc-addon-sync-1-8pTsaa56rCLj0ldPZWrHGU">
                   <description/>
                   <tags/>
                   <detail>
@@ -362,12 +375,17 @@
                             nullable="true"
                             required="false"
                             type="reference"/>
+                     <field label="Max Wait (Seconds)"
+                            name="Max_Wait"
+                            nullable="true"
+                            required="false"
+                            type="int"/>
                   </detail>
                </processObject>
                <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
-                              displayName="mt-stg-ebs-pc-device-sync-1"
+                              displayName="mt-stg-ebs-pc-device-sync-1-4WyprGmTKiwgH9qVwVfNsm"
                               isByCopy="true"
-                              name="mt-stg-ebs-pc-device-sync-1">
+                              name="mt-stg-ebs-pc-device-sync-1-4WyprGmTKiwgH9qVwVfNsm">
                   <description/>
                   <tags/>
                   <detail>
@@ -386,12 +404,17 @@
                             nullable="true"
                             required="false"
                             type="reference"/>
+                     <field label="Max Wait (Seconds)"
+                            name="Max_Wait"
+                            nullable="true"
+                            required="false"
+                            type="int"/>
                   </detail>
                </processObject>
                <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
-                              displayName="mt-stg-ebs-pc-device-addon-sync-1"
+                              displayName="mt-stg-ebs-pc-device-addon-sync-1-kD4242cpNiZhjghRdZMemU"
                               isByCopy="true"
-                              name="mt-stg-ebs-pc-device-addon-sync-1">
+                              name="mt-stg-ebs-pc-device-addon-sync-1-kD4242cpNiZhjghRdZMemU">
                   <description/>
                   <tags/>
                   <detail>
@@ -410,12 +433,17 @@
                             nullable="true"
                             required="false"
                             type="reference"/>
+                     <field label="Max Wait (Seconds)"
+                            name="Max_Wait"
+                            nullable="true"
+                            required="false"
+                            type="int"/>
                   </detail>
                </processObject>
                <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
-                              displayName="mt-stg-ebs-pc-sharing-sync-1"
+                              displayName="mt-stg-ebs-pc-sharing-sync-1-1lrNkwN9WYyewDzTonIZ0u"
                               isByCopy="true"
-                              name="mt-stg-ebs-pc-sharing-sync-1">
+                              name="mt-stg-ebs-pc-sharing-sync-1-1lrNkwN9WYyewDzTonIZ0u">
                   <description/>
                   <tags/>
                   <detail>
@@ -434,6 +462,11 @@
                             nullable="true"
                             required="false"
                             type="reference"/>
+                     <field label="Max Wait (Seconds)"
+                            name="Max_Wait"
+                            nullable="true"
+                            required="false"
+                            type="int"/>
                   </detail>
                </processObject>
             </dependencies>
@@ -442,5 +475,5 @@
       <types1:GUID>4HFvFpaI2cLfyURGxl5rQe</types1:GUID>
       <types1:DisplayName>tf_stg_ebs_product_configuration_sync_1</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2023-06-01T10:06:44.662Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2025-01-15T14:02:52.231Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>

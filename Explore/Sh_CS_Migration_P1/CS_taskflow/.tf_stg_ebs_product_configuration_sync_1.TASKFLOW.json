@@ -13,13 +13,14 @@
       },
       "contextAttributes" : null,
       "additionalInfo" : {
-        "description" : "1. Main Service\n2. Addon\n3. Device \n4. Device Addon \n5. Sharing Service\n6. Sharing Service Addon",
-        "contentType" : null,
+        "description" : "1. Main Service\n2. Addon\n3. Device \n4. Device Addon \n5. Sharing Service\n6.Sharing Service Addon",
+        "contentType" : "application/json; charset=utf-8",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "xml",
+  "updateTime" : "2025-01-15T14:02:52.473Z",
   "objectRefs" : [ {
     "id" : "5SYbXFUrrKNfRZ4xY3VzI6",
     "name" : "mt_stg_ebs_pc_main_sync_1",
@@ -32,10 +33,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000JF"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : null,
@@ -55,10 +53,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000JE"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : null,
@@ -78,10 +73,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000IF"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : null,
@@ -101,10 +93,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000JH"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : null,
@@ -124,10 +113,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000JG"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : null,
@@ -135,5 +121,7 @@
       }
     },
     "path" : "/Explore/Sh_CS_Migration_P1/Stage_to_Sync"
-  } ]
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
