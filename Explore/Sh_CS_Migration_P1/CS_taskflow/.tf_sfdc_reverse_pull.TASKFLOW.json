@@ -13,13 +13,14 @@
       },
       "contextAttributes" : null,
       "additionalInfo" : {
-        "description" : "",
-        "contentType" : null,
-        "documentState" : "VALID"
+        "description" : "export test",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "INVALID"
       }
     }
   },
   "dataFileExtension" : "xml",
+  "updateTime" : "2025-01-15T13:53:13.995Z",
   "objectRefs" : [ {
     "id" : "1kKCOzS97GQbiRvy8O3QM7",
     "name" : "mt_rep_product_basket",
@@ -32,10 +33,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000HS"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -45,7 +43,7 @@
     "path" : "/Explore/Sh_CS_Migration_P1/Reverse_pull_objects"
   }, {
     "id" : "5AriFcd9Ii7hvNQY35Ur2U",
-    "name" : "mt_rep_cspmb__Add_On_Price_Item__c",
+    "name" : "mt_rep_cspmb__Add_On_Price_Item__c_OLD",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -55,10 +53,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000JY"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -68,7 +63,7 @@
     "path" : "/Explore/Sh_CS_Migration_P1/Reverse_pull_objects"
   }, {
     "id" : "6CDuQ6EJYXwdXHPrP1okKt",
-    "name" : "mt_rep_cscfga_Product_Definition",
+    "name" : "mt_rep_cscfga_Product_Definition_OLD_2",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -78,10 +73,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000JP"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -91,7 +83,7 @@
     "path" : "/Explore/Sh_CS_Migration_P1/Reverse_pull_objects"
   }, {
     "id" : "5OB8CydDye0k69XWzyruOS",
-    "name" : "mt_rep_cspmb__Price_Item__c",
+    "name" : "mt_rep_cspmb__Price_Item__c_OLD",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -101,10 +93,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000I3"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -124,10 +113,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000JO"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -147,10 +133,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000HB"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -160,7 +143,7 @@
     "path" : "/Explore/Sh_CS_Migration_P1/Reverse_pull_objects"
   }, {
     "id" : "luBYxI3gbKgcRmdu8UWGyv",
-    "name" : "mt_m_sf_cscfga__Attribute_Definition__c",
+    "name" : "mt_m_sf_cscfga__Attribute_Definition__c_OLD",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -170,10 +153,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000JR"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -193,10 +173,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000JS"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -216,10 +193,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000H6"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -239,10 +213,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000K3"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -262,10 +233,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000IN"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -275,7 +243,7 @@
     "path" : "/Explore/Sh_CS_Migration_P1/Reverse_pull_objects"
   }, {
     "id" : "gFeSTKCu6OIbxTI5MpBaIP",
-    "name" : "mt_rep_cscfga__Attribute_Definition__c",
+    "name" : "mt_rep_cscfga__Attribute_Definition__c_OLD",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -285,10 +253,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000JA"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -298,7 +263,7 @@
     "path" : "/Explore/Sh_CS_Migration_P1/Reverse_pull_objects"
   }, {
     "id" : "07Jo4IKdai6bMIPCIjowAg",
-    "name" : "mt_rep_sf_cssdm__Non_Commercial_Product_Association__c",
+    "name" : "mt_rep_sf_cssdm__Non_Commercial_Product_Association__c_OLD",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -308,10 +273,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000K9"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -331,10 +293,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000KB"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -354,10 +313,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000J1"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -367,7 +323,7 @@
     "path" : "/Explore/Sh_CS_Migration_P1/Reverse_pull_objects"
   }, {
     "id" : "gLYJghhTsajcNoozcKsZwe",
-    "name" : "mt_rep_cspmb__Price_Item_Add_On_Price_Item_Association__c",
+    "name" : "mt_rep_cspmb__Price_Item_Add_On_Price_Item_Association__c_OLD",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -377,10 +333,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000IR"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -400,10 +353,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000KA"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -413,7 +363,7 @@
     "path" : "/Explore/Sh_CS_Migration_P1/Reverse_pull_objects"
   }, {
     "id" : "azVkiATih3ZkD5m64pzd2C",
-    "name" : "mt_rep_cscfga_Product_Definition_version",
+    "name" : "mt_rep_cscfga_Product_Definition_version_OLD",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -423,10 +373,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000J3"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -436,7 +383,7 @@
     "path" : "/Explore/Sh_CS_Migration_P1/Reverse_pull_objects"
   }, {
     "id" : "cSN6Xs6e92pjra0W5zZwya",
-    "name" : "mt_rep_cssdm__Solution_Definition__c",
+    "name" : "mt_rep_cssdm__Solution_Definition__c_OLD",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -446,10 +393,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000JK"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -469,10 +413,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000HL"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -492,10 +433,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000J5"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -505,7 +443,7 @@
     "path" : "/Explore/Sh_CS_Migration_P1/Reverse_pull_objects"
   }, {
     "id" : "b73wYTKMoQujF7jSQune0T",
-    "name" : "mt_csutil__JSON_Data__c",
+    "name" : "mt_csutil__JSON_Data__c_OLD",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -515,10 +453,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000J0"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -528,7 +463,7 @@
     "path" : "/Explore/Sh_CS_Migration_P1/Reverse_pull_objects"
   }, {
     "id" : "4PJIAlAP6q9j2RP1dE96wV",
-    "name" : "mt_rep_cspmb__Feature__c",
+    "name" : "mt_rep_cspmb__Feature__c_OLD",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -538,10 +473,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000K8"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -551,7 +483,7 @@
     "path" : "/Explore/Sh_CS_Migration_P1/Reverse_pull_objects"
   }, {
     "id" : "7Cr0RAPhWm0dwGPwufBgOw",
-    "name" : "mt_rep_cscfga__Attribute_Field_Definition__c",
+    "name" : "mt_rep_cscfga__Attribute_Field_Definition__c_OLD",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -561,10 +493,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ0Z0000000000HA"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -572,5 +501,7 @@
       }
     },
     "path" : "/Explore/Sh_CS_Migration_P1/Reverse_pull_objects"
-  } ]
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
