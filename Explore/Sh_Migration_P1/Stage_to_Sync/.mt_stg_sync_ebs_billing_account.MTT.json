@@ -23,6 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
+  "updateTime" : "2025-01-17T02:15:55.261Z",
   "objectRefs" : [ {
     "id" : "cUgvxjP6z42j5o2aizvbUV",
     "name" : "l8ebgmigration800",
@@ -45,7 +46,7 @@
     "path" : "/SYS"
   }, {
     "id" : "0aa38HfbIjadqoKlbnU14y",
-    "name" : "SH_Data_Migration_POSTGRES",
+    "name" : "P2_Data_Migration_POSTGRES",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -65,7 +66,7 @@
     "path" : "/SYS"
   }, {
     "id" : "5WUiEL7bZCNd4tqO13zcSH",
-    "name" : "m_stg_sync_ebs_sap_billing_account",
+    "name" : "m_stg_sync_ebs_billing_account",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -83,5 +84,7 @@
       }
     },
     "path" : "/Explore/Sh_Migration_P1/Stage_to_Sync"
-  } ]
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
