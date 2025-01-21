@@ -16,14 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "export test",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-01-18T08:27:59.263Z",
+  "updateTime" : "2025-01-21T08:30:47.140Z",
   "objectRefs" : [ {
     "id" : "cUgvxjP6z42j5o2aizvbUV",
     "name" : "l8ebgmigration800",
@@ -76,10 +76,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ170000000001CY"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "1. Main Service\n2. Addon Service\n3. Device Service\n4. Device Addon\n5. Sharing Service",
         "contentType" : "JSON",
@@ -87,5 +84,7 @@
       }
     },
     "path" : "/Explore/Sh_CS_Migration_P1/Stage_to_Sync"
-  } ]
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
