@@ -16,14 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "exprt test",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-01-10T07:56:03.776Z",
+  "updateTime" : "2025-01-21T08:35:23.679Z",
   "objectRefs" : [ {
     "id" : "cUgvxjP6z42j5o2aizvbUV",
     "name" : "l8ebgmigration800",
@@ -104,5 +104,7 @@
       }
     },
     "path" : "/Explore/Sh_CS_Migration_P1/Source_to_Stage"
-  } ]
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
