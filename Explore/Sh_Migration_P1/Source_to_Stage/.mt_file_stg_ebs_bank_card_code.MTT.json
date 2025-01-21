@@ -16,14 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "et",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-01-10T07:21:06.960Z",
+  "updateTime" : "2025-01-21T11:12:42.846Z",
   "objectRefs" : [ {
     "id" : "7jNNt3SnWAJkdkGmGUjgUt",
     "name" : "m_file_stg_ebs_bank_card_code",
@@ -104,5 +104,7 @@
       }
     },
     "path" : "/SYS"
-  } ]
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
