@@ -16,14 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "et",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-09-26T06:30:22.889Z",
+  "updateTime" : "2025-01-21T11:11:59.884Z",
   "objectRefs" : [ {
     "id" : "cUgvxjP6z42j5o2aizvbUV",
     "name" : "l8ebgmigration800",
@@ -65,8 +65,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "5cVavMJoq6viVKggQReXmA",
-    "name" : "P2_Data_Migration_Extraction_EBS",
+    "id" : "6p4uTRdgj22k8PCX82UZsY",
+    "name" : "P2_Data_Migration_Extraction_Reference",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -74,7 +74,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0102UZ0B00000000000U"
+        "repoHandle" : "0102UZ0B000000000010"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -104,5 +104,7 @@
       }
     },
     "path" : "/Explore/Sh_Migration_P1/Source_to_Stage"
-  } ]
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
