@@ -16,14 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "",
-        "contentType" : null,
+        "description" : "et",
+        "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-09-13T08:47:02.545Z",
+  "updateTime" : "2025-01-21T09:38:14.148Z",
   "objectRefs" : [ {
     "id" : "cUgvxjP6z42j5o2aizvbUV",
     "name" : "l8ebgmigration800",
@@ -65,8 +65,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "9BbRLvdO9WclfHAtYXCK2C",
-    "name" : "MYR_Data_Migration_SFDC",
+    "id" : "2pzkdnOGuGpiqnKtNRkpw3",
+    "name" : "P2_Data_Migration_SFDC",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -74,7 +74,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0102UZ0B00000000000S"
+        "repoHandle" : "0102UZ0B00000000000X"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -96,16 +96,15 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ1700000000014Y"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
-        "contentType" : null,
+        "contentType" : "JSON",
         "documentState" : "VALID"
       }
     },
     "path" : "/Explore/Sh_Migration_P1/Reversepull_objects"
-  } ]
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
