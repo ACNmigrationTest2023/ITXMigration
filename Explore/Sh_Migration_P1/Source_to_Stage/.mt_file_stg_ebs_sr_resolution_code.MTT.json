@@ -16,14 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "et",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-01-10T07:37:06.722Z",
+  "updateTime" : "2025-01-21T11:53:45.821Z",
   "objectRefs" : [ {
     "id" : "0rz5ftbTvbIjjkqvCUAzG9",
     "name" : "m_file_stg_ebs_sr_resolution_code",
@@ -104,5 +104,7 @@
       }
     },
     "path" : "/SYS"
-  } ]
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
