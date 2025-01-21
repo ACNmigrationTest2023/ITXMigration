@@ -16,13 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "et",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
+  "updateTime" : "2025-01-21T12:53:12.589Z",
   "objectRefs" : [ {
     "id" : "92DlHiW5rFyj47OcS6boak",
     "name" : "m_load_tgt_sf_case_attachment",
@@ -35,10 +36,7 @@
       "repoInfo" : {
         "repoHandle" : "0102UZ170000000000O0"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
@@ -68,7 +66,7 @@
     "path" : "/SYS"
   }, {
     "id" : "0aa38HfbIjadqoKlbnU14y",
-    "name" : "SH_Data_Migration_POSTGRES",
+    "name" : "P2_Data_Migration_POSTGRES",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -88,7 +86,7 @@
     "path" : "/SYS"
   }, {
     "id" : "9BbRLvdO9WclfHAtYXCK2C",
-    "name" : "SH_Data_Migration_SFDC",
+    "name" : "MYR_Data_Migration_SFDC",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -106,5 +104,7 @@
       }
     },
     "path" : "/SYS"
-  } ]
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
