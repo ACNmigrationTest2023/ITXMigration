@@ -16,14 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "et",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-10-19T13:26:13.118Z",
+  "updateTime" : "2025-01-21T09:22:40.844Z",
   "objectRefs" : [ {
     "id" : "cUgvxjP6z42j5o2aizvbUV",
     "name" : "l8ebgmigration800",
@@ -66,7 +66,7 @@
     "path" : "/SYS"
   }, {
     "id" : "5olQK5rPeWJdqGB9AoDee9",
-    "name" : "m_sync_sf_solution",
+    "name" : "m_sync_sf_solution_OLD",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -84,5 +84,7 @@
       }
     },
     "path" : "/Explore/Sh_CS_Migration_P1/Stage_to_Sync"
-  } ]
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
