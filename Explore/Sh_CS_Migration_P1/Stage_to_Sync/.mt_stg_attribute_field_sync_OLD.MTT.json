@@ -16,14 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "exprt test",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-10-24T14:22:45.523Z",
+  "updateTime" : "2025-01-21T06:24:01.750Z",
   "objectRefs" : [ {
     "id" : "cmXImXWEnS3fZicj4JzliD",
     "name" : "m_stg_attribute_field_sync_OLD",
@@ -84,5 +84,7 @@
       }
     },
     "path" : "/SYS"
-  } ]
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
