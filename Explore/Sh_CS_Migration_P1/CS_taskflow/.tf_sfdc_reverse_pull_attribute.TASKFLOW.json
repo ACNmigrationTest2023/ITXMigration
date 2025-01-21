@@ -20,7 +20,7 @@
     }
   },
   "dataFileExtension" : "xml",
-  "updateTime" : "2025-01-15T14:03:43.651Z",
+  "updateTime" : "2025-01-21T05:56:17.260Z",
   "objectRefs" : [ {
     "id" : "7kMI1azosnok33B9BX5x6y",
     "name" : "mt_rep_cscfga_Attribute_Field",
@@ -35,7 +35,7 @@
       },
       "contextAttributes" : null,
       "additionalInfo" : {
-        "description" : "",
+        "description" : "export_testing",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
@@ -55,7 +55,7 @@
       },
       "contextAttributes" : null,
       "additionalInfo" : {
-        "description" : "",
+        "description" : "export testing",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
