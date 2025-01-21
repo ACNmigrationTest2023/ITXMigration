@@ -16,14 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "et",
+        "description" : "et/et",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2025-01-21T11:08:17.346Z",
+  "updateTime" : "2025-01-21T11:48:46.870Z",
   "objectRefs" : [ {
     "id" : "etjbfer8DmskPhvxe3emy8",
     "name" : "m_file_stg_ebs_sr_bill",
