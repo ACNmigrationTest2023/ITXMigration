@@ -16,14 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "Export testing",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-01-10T07:50:19.482Z",
+  "updateTime" : "2025-01-21T06:12:40.947Z",
   "objectRefs" : [ {
     "id" : "4BLYZsvWK7wf7tN5Zt6fIu",
     "name" : "m_file_stg_ebs_gm_goods_type",
@@ -104,5 +104,7 @@
       }
     },
     "path" : "/SYS"
-  } ]
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
