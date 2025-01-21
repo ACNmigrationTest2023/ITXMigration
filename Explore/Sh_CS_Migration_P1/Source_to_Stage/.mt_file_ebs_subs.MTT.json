@@ -16,14 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "Load EBS file",
+        "description" : "Load EBS file/et",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2025-01-21T06:13:25.735Z",
+  "updateTime" : "2025-01-21T08:47:39.481Z",
   "objectRefs" : [ {
     "id" : "cUgvxjP6z42j5o2aizvbUV",
     "name" : "l8ebgmigration800",
