@@ -16,14 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "exprt tst",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-10-19T08:16:14.285Z",
+  "updateTime" : "2025-03-11T06:27:27.987Z",
   "objectRefs" : [ {
     "id" : "cUgvxjP6z42j5o2aizvbUV",
     "name" : "l8ebgmigration800",
@@ -46,7 +46,7 @@
     "path" : "/SYS"
   }, {
     "id" : "2x96kHCWG4tfgq9Bk9yhum",
-    "name" : "m_tgt_sf_json_pc",
+    "name" : "m_tgt_sf_json_pc_OLD",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -84,5 +84,7 @@
       }
     },
     "path" : "/SYS"
-  } ]
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
