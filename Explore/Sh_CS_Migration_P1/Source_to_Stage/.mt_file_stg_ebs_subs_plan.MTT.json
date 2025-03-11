@@ -16,14 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "exprt tst",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-01-10T07:48:53.545Z",
+  "updateTime" : "2025-03-11T05:40:02.703Z",
   "objectRefs" : [ {
     "id" : "aqyDQqMSJAvbkfg39jMgIU",
     "name" : "m_file_stg_ebs_subs_plan",
@@ -104,5 +104,7 @@
       }
     },
     "path" : "/SYS"
-  } ]
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
 }
